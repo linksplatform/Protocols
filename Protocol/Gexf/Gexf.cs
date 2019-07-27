@@ -32,7 +32,9 @@ namespace Platform.Communication.Protocol.Gexf
             WriteXml(writer, writeGraph, Version);
         }
 
-        public static void WriteXml(XmlWriter writer, Action writeGraph, string version = CurrentVersion)
+        public static void WriteXml(XmlWriter writer, Action writeGraph) => WriteXml(writer, writeGraph, CurrentVersion);
+
+        public static void WriteXml(XmlWriter writer, Action writeGraph, string version)
         {
             writer.WriteStartDocument();
             writer.WriteStartElement(ElementName, Namespace);
