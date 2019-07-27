@@ -26,7 +26,9 @@ namespace Platform.Communication.Protocol.Gexf
 
         public void WriteXml(XmlWriter writer) => WriteXml(writer, Id, Source, Target, Label);
 
-        public static void WriteXml(XmlWriter writer, long id, long sourceNodeId, long targetNodeId, string label = null)
+        public static void WriteXml(XmlWriter writer, long id, long sourceNodeId, long targetNodeId) => WriteXml(writer, id, sourceNodeId, targetNodeId, null);
+
+        public static void WriteXml(XmlWriter writer, long id, long sourceNodeId, long targetNodeId, string label)
         {
             // <edge id="0" source="0" target="0" label="..." />
             writer.WriteStartElement(ElementName);
