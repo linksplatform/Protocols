@@ -6,7 +6,7 @@ namespace Platform.Communication.Protocol.Gexf
 {
     public class Node
     {
-        public const string ElementName = "node";
+        public static readonly string ElementName = "node";
         public const string IdAttributeName = "id";
         public const string LabelAttributeName = "label";
 
@@ -22,10 +22,8 @@ namespace Platform.Communication.Protocol.Gexf
         {
             // <node id="0" label="..." />
             writer.WriteStartElement(ElementName);
-
             writer.WriteAttributeString(IdAttributeName, id.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString(LabelAttributeName, label);
-
             writer.WriteEndElement();
         }
     }

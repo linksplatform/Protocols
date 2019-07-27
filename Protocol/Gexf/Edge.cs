@@ -6,7 +6,7 @@ namespace Platform.Communication.Protocol.Gexf
 {
     public class Edge
     {
-        public const string ElementName = "edge";
+        public static readonly string ElementName = "edge";
         public const string IdAttributeName = "id";
         public const string SourceAttributeName = "source";
         public const string TargetAttributeName = "target";
@@ -32,13 +32,13 @@ namespace Platform.Communication.Protocol.Gexf
         {
             // <edge id="0" source="0" target="0" label="..." />
             writer.WriteStartElement(ElementName);
-
             writer.WriteAttributeString(IdAttributeName, id.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString(SourceAttributeName, sourceNodeId.ToString(CultureInfo.InvariantCulture));
             writer.WriteAttributeString(TargetAttributeName, targetNodeId.ToString(CultureInfo.InvariantCulture));
             if (!string.IsNullOrWhiteSpace(label))
+            {
                 writer.WriteAttributeString(LabelAttributeName, label);
-
+            }
             writer.WriteEndElement();
         }
     }

@@ -11,7 +11,7 @@ namespace Platform.Communication.Protocol.Gexf
         public const string Namespace = "http://www.gexf.net/1.2draft";
         public const string VersionAttributeName = "version";
         public const string GraphElementName = "graph";
-        public const string CurrentVersion = "1.2";
+        public static readonly string CurrentVersion = "1.2";
 
         [XmlAttribute(AttributeName = VersionAttributeName)]
         public string Version { get; set; }
@@ -25,12 +25,7 @@ namespace Platform.Communication.Protocol.Gexf
             Graph = new Graph();
         }
 
-        public void WriteXml(XmlWriter writer)
-        {
-            void writeGraph() => Graph.WriteXml(writer);
-
-            WriteXml(writer, writeGraph, Version);
-        }
+        public void WriteXml(XmlWriter writer) => WriteXml(writer, () => Graph.WriteXml(writer), Version);
 
         public static void WriteXml(XmlWriter writer, Action writeGraph) => WriteXml(writer, writeGraph, CurrentVersion);
 
@@ -39,9 +34,7 @@ namespace Platform.Communication.Protocol.Gexf
             writer.WriteStartDocument();
             writer.WriteStartElement(ElementName, Namespace);
             writer.WriteAttributeString(VersionAttributeName, version);
-
             writeGraph();
-
             writer.WriteEndElement();
             writer.WriteEndDocument();
         }

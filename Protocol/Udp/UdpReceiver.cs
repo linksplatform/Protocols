@@ -4,18 +4,16 @@ using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using Platform.Disposables;
-using Platform.Helpers;
+using Platform.Exceptions;
 
 namespace Platform.Communication.Protocol.Udp
 {
     public delegate void MessageHandlerCallback(string message);
 
     /// <summary>
+    /// Represents the receiver of messages transfered via UDP protocol.
     /// Представляет получателя сообщений по протоколу UDP.
     /// </summary>
-    /// <remarks>
-    /// TODO: Попробовать ThreadPool / Tasks
-    /// </remarks>
     public class UdpReceiver : DisposableBase //-V3073
     {
         private const int DefaultPort = 15000;
@@ -33,8 +31,10 @@ namespace Platform.Communication.Protocol.Udp
             _udp = new UdpClient(listenPort);
             _listenPort = listenPort;
             _messageHandler = messageHandler;
-
-            if (autoStart) Start();
+            if (autoStart)
+            {
+                Start();
+            }
         }
 
         public UdpReceiver(int listenPort, MessageHandlerCallback messageHandler)
@@ -67,12 +67,9 @@ namespace Platform.Communication.Protocol.Udp
             if (_receiverRunning && _thread != null)
             {
                 _receiverRunning = false;
-
                 // Send Packet to itself to switch Receiver from Receiving.
-                // TODO: Test new stopper
                 var loopback = new IPEndPoint(IPAddress.Loopback, _listenPort);
                 new UdpClient().SendAsync(new byte[0], 0, loopback).ContinueWith(Disposable.DisposeIfDisposable);
-
                 _thread.Join();
                 _thread = null;
             }
@@ -90,10 +87,13 @@ namespace Platform.Communication.Protocol.Udp
         {
             while (_receiverRunning)
             {
-                try { ReceiveAndHandle(); }
+                try
+                {
+                    ReceiveAndHandle();
+                }
                 catch (Exception exception)
                 {
-                    Global.OnIgnoredException(exception);
+                    exception.Ignore();
                 }
             }
         }
@@ -101,7 +101,9 @@ namespace Platform.Communication.Protocol.Udp
         protected override void DisposeCore(bool manual, bool wasDisposed)
         {
             if (!wasDisposed)
+            {
                 Stop();
+            }
             Disposable.TryDispose(_udp);
         }
     }

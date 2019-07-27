@@ -6,6 +6,7 @@ using Platform.Disposables;
 namespace Platform.Communication.Protocol.Udp
 {
     /// <summary>
+    /// Represents the sender of messages transfered via UDP protocol.
     /// Представляет отправителя сообщений по протоколу UDP.
     /// </summary>
     public class UdpSender : DisposableBase //-V3073

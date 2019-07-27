@@ -7,7 +7,7 @@ namespace Platform.Communication.Protocol.Gexf
 {
     public class Graph
     {
-        public const string ElementName = "graph";
+        public static readonly string ElementName = "graph";
         public const string ModeAttributeName = "mode";
         public const string DefaultEdgeTypeAttributeName = "defaultedgetype";
         public const string NodesElementName = "nodes";
@@ -35,42 +35,35 @@ namespace Platform.Communication.Protocol.Gexf
             Edges = new List<Edge>();
         }
 
-        public void WriteXml(XmlWriter writer)
+        public void WriteXml(XmlWriter writer) => WriteXml(writer, () => WriteNodes(writer), () => WriteEdges(writer), Mode, DefaultEdgeType);
+
+        private void WriteEdges(XmlWriter writer)
         {
-            void writeNodes()
+            for (var i = 0; i < Edges.Count; i++)
             {
-                for (var i = 0; i < Nodes.Count; i++)
-                    Nodes[i].WriteXml(writer);
+                Edges[i].WriteXml(writer);
             }
+        }
 
-            void writeEdges()
+        private void WriteNodes(XmlWriter writer)
+        {
+            for (var i = 0; i < Nodes.Count; i++)
             {
-                for (var i = 0; i < Edges.Count; i++)
-                    Edges[i].WriteXml(writer);
+                Nodes[i].WriteXml(writer);
             }
-
-            WriteXml(writer, writeNodes, writeEdges, Mode, DefaultEdgeType);
         }
 
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, GraphMode mode = GraphMode.Static, GraphDefaultEdgeType defaultEdgeType = GraphDefaultEdgeType.Directed)
         {
             writer.WriteStartElement(ElementName);
-
             writer.WriteAttributeString(ModeAttributeName, mode.ToString().ToLower());
             writer.WriteAttributeString(DefaultEdgeTypeAttributeName, defaultEdgeType.ToString().ToLower());
-
             writer.WriteStartElement(NodesElementName);
-
             writeNodes();
-
             writer.WriteEndElement();
-
             writer.WriteStartElement(EdgesElementName);
-
             writeEdges();
-
             writer.WriteEndElement();
-
             writer.WriteEndElement();
         }
     }
