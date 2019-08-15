@@ -2,7 +2,7 @@
 using System.Text;
 using System.Xml.Serialization;
 
-namespace Platform.Helpers.Serialization
+namespace Platform.Communication.Protocol.Xml
 {
     public static class Serializer<T>
     {
