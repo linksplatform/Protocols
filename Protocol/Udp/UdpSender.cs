@@ -38,6 +38,12 @@ namespace Platform.Communication.Protocol.Udp
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public int Send(string message) => _udp.SendString(_ipendpoint, message);
 
-        protected override void DisposeCore(bool manual, bool wasDisposed) => Disposable.TryDispose(_udp);
+        protected override void Dispose(bool manual, bool wasDisposed)
+        {
+            if (!wasDisposed)
+            {
+                _udp.DisposeIfPossible();
+            }
+        }
     }
 }

@@ -69,7 +69,8 @@ namespace Platform.Communication.Protocol.Udp
                 _receiverRunning = false;
                 // Send Packet to itself to switch Receiver from Receiving.
                 var loopback = new IPEndPoint(IPAddress.Loopback, _listenPort);
-                new UdpClient().SendAsync(new byte[0], 0, loopback).ContinueWith(Disposable.DisposeIfDisposable);
+                var stopper = new UdpClient();
+                stopper.SendAsync(new byte[0], 0, loopback).ContinueWith((task) => stopper.Dispose());
                 _thread.Join();
                 _thread = null;
             }
@@ -98,13 +99,13 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
-        protected override void DisposeCore(bool manual, bool wasDisposed)
+        protected override void Dispose(bool manual, bool wasDisposed)
         {
             if (!wasDisposed)
             {
                 Stop();
+                _udp.DisposeIfPossible();
             }
-            Disposable.TryDispose(_udp);
         }
     }
 }
