@@ -3,7 +3,7 @@ using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Text;
 using Platform.Threading;
-using Platform.Helpers.Singletons;
+using Platform.Singletons;
 
 namespace Platform.Communication.Protocol.Udp
 {
