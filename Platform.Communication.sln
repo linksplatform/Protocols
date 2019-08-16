@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Communication", "Platform.Communication\Platform.Communication.csproj", "{BBA0C2A7-F555-415E-AD33-77088F3D7BB6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D7A9BC-9B53-476B-AEF2-D29BB81FB95C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		push-nuget.bat = push-nuget.bat
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
