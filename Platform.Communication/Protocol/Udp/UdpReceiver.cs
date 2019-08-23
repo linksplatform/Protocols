@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Net;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using Platform.Disposables;
 using Platform.Exceptions;
+using Platform.Threading;
 
 namespace Platform.Communication.Protocol.Udp
 {
@@ -20,7 +20,6 @@ namespace Platform.Communication.Protocol.Udp
 
         private bool _receiverRunning;
         private Thread _thread;
-        private readonly int _listenPort;
         private readonly UdpClient _udp;
         private readonly MessageHandlerCallback _messageHandler;
 
@@ -29,7 +28,6 @@ namespace Platform.Communication.Protocol.Udp
         public UdpReceiver(int listenPort, bool autoStart, MessageHandlerCallback messageHandler)
         {
             _udp = new UdpClient(listenPort);
-            _listenPort = listenPort;
             _messageHandler = messageHandler;
             if (autoStart)
             {
@@ -67,10 +65,6 @@ namespace Platform.Communication.Protocol.Udp
             if (_receiverRunning && _thread != null)
             {
                 _receiverRunning = false;
-                // Send Packet to itself to switch Receiver from Receiving.
-                var loopback = new IPEndPoint(IPAddress.Loopback, _listenPort);
-                var stopper = new UdpClient();
-                stopper.SendAsync(new byte[0], 0, loopback).ContinueWith((task) => stopper.Dispose());
                 _thread.Join();
                 _thread = null;
             }
@@ -90,7 +84,14 @@ namespace Platform.Communication.Protocol.Udp
             {
                 try
                 {
-                    ReceiveAndHandle();
+                    if (Available)
+                    {
+                        ReceiveAndHandle();
+                    }
+                    else
+                    {
+                        ThreadHelpers.Sleep();
+                    }
                 }
                 catch (Exception exception)
                 {

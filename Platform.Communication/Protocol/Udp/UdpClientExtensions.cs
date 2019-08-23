@@ -15,10 +15,14 @@ namespace Platform.Communication.Protocol.Udp
         public static int SendString(this UdpClient udp, IPEndPoint ipEndPoint, string message)
         {
             var bytes = _defaultEncoding.GetBytes(message);
-            return udp.SendAsync(bytes, bytes.Length, ipEndPoint).AwaitResult();
+            return udp.Send(bytes, bytes.Length, ipEndPoint);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static string ReceiveString(this UdpClient udp) => _defaultEncoding.GetString(udp.ReceiveAsync().AwaitResult().Buffer);
+        public static string ReceiveString(this UdpClient udp)
+        {
+            IPEndPoint remoteEndPoint = default;
+            return _defaultEncoding.GetString(udp.Receive(ref remoteEndPoint));
+        }
     }
 }
