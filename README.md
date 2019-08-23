@@ -6,7 +6,7 @@
 
 LinksPlatform's Platform.Communication Class Library.
 
-Namespace: [Platform.Communication](https://linksplatform.github.io/Communication/api/Platform.Communication.html)
+Namespace: Platform.Communication
 
 Forked from: [Konard/LinksPlatform/Platform/Platform.Communication](https://github.com/Konard/LinksPlatform/tree/0599b1bdad82c23ae80c890e63b309764b6997bd/Platform/Platform.Communication)
 
