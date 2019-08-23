@@ -2,8 +2,9 @@
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Text;
-using Platform.Threading;
 using Platform.Singletons;
+
+#pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
 namespace Platform.Communication.Protocol.Udp
 {
