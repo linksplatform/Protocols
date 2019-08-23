@@ -4,15 +4,15 @@
     <Description>LinksPlatform's Platform.Communication Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Communication</AssemblyTitle>
-    <VersionPrefix>0.1.1</VersionPrefix>
+    <VersionPrefix>0.1.2</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Platform.Communication</AssemblyName>
     <PackageId>Platform.Communication</PackageId>
-    <PackageTags>LinksPlatform;Communication;Protocols;Gexf;Udp;UdpSender;UdpReceiver</PackageTags>
+    <PackageTags>LinksPlatform;Communication;Protocols;Gexf;Udp;UdpSender;UdpReceiver;Xml;Serializer</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Communication</PackageProjectUrl>
-    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/linksplatform/Communication</RepositoryUrl>
@@ -21,9 +21,12 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageReleaseNotes>Correcly ignoring exceptions now.
-Platform.Threading dependency update from 0.0.3 to 0.0.4.
-Platform.Helpers dependency update from 0.1.0 to 0.1.1.
+    <PackageReleaseNotes>Platform.Threading dependency updated from 0.0.4 to 0.0.5.
+Platform.Helpers dependency replaced with Platform.Singletons.
+Added Platform.Communication.Protocol.Xml.Serializer.
+XML documentation file generation turned on.
+Added tests.
+Travis CI connected.
 Refactoring and issues fix.</PackageReleaseNotes>
   </PropertyGroup>
 
