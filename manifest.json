@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "7onfbM3Xb2VXdafZY4kVbA=="
+          "hash": "Yoew++UB+aocVogHlnowzQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "95KlK03V/g9ZiP6Ozo5sSQ=="
+          "hash": "1DntTxCscpm5sCLuu/QOBg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "jR/hmuH+EWIemDw6wF2nDA=="
+          "hash": "YY9Pge5S6RkssexJexIxqQ=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "zdQNSaKTGA1P4LncHhAQHw=="
+          "hash": "qfubKJ/VESMo9ccSJSnk2g=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "ay9UolLHLDWe9LZhEa5vPA=="
+          "hash": "tnvfVqh1nJEGvcrHC47iJw=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "5X0jCxjfY6JBhngYN9ZdZw=="
+          "hash": "nyg7iXBqZfI+j7Din7sr7Q=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "yxP8q1sVWAlCkeDmqz3Erg=="
+          "hash": "PKoAYo3xAdiO9Es+VEb2DA=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.html",
-          "hash": "ORSA7/P2w3AAm0i749BqrA=="
+          "hash": "o4HkvcfQ+JACegF2ijsAng=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "mFr6qCdBn6hY2CPRW/m9wA=="
+          "hash": "7x+rYPV6vmbl1Zc8LkQu1A=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "H1IcCIU+Ddx4/3tElHrV1w=="
+          "hash": "bHC430IOIM7E92cV5Mdw7A=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "iUMKEiheHtJKWuUGmfBjZA=="
+          "hash": "O8uYFaUcwIE/Gmlf3PYq1Q=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "huL4aFf+fA8h+N4Fp6ybNQ=="
+          "hash": "lZmtn0Qg+zFQVL9bFo0xug=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.html",
-          "hash": "9x3H2ztLdHvaNNScgFcysg=="
+          "hash": "1CcWCivxOh/oTlUCgd3LOw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
-          "hash": "SPnwg0sNG5kMNiQRP4xPxw=="
+          "hash": "Bp1whkjAFbHXVLUoKR22DQ=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Xml.html",
-          "hash": "psvA7R04vEQ4B+EoQPYpxw=="
+          "hash": "XCmkGcVwrmnq5mFQ1miMHA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Tests.SerializerTests.html",
-          "hash": "iEVz+MNaAyJATrsHLAXU9A=="
+          "hash": "uOC1a4HmBNFoSOj0wJLklQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Tests.UdpReceiverTests.html",
-          "hash": "VKSzxcnW1Z8/vMm1ZYejFw=="
+          "hash": "ehC8ST08tmyX+9v8HmcrAw=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Tests.html",
-          "hash": "wcPxbKLtwp5ISUpUMcRTog=="
+          "hash": "WDEQtd7FUt8seklhTDXbNA=="
         }
       },
       "is_incremental": false,
@@ -267,10 +267,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -279,11 +280,10 @@
           "total_file_count": 17,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 1,
           "skipped_file_count": 0
         }
       }
