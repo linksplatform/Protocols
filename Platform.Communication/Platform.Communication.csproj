@@ -32,7 +32,7 @@ Refactoring and issues fix.</PackageReleaseNotes>
 
   <ItemGroup>
     <PackageReference Include="Platform.Threading" Version="0.1.0" />
-    <PackageReference Include="Platform.Singletons" Version="0.0.2" />
+    <PackageReference Include="Platform.Singletons" Version="0.0.3" />
   </ItemGroup>
 
 </Project>
