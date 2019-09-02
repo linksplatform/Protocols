@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "NLzqgJVKAg83CsE9Ex16Yw=="
+          "hash": "wsecAfDkHGvITl8DknXOhw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "QHOzN0KxJELcjGTEEyD6SA=="
+          "hash": "5wh/CyPL/LTssHqTI3ymcg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "rUApfWcBG0UZJMWxcIo7lg=="
+          "hash": "9ZuTAJLLwORk9XubtoW0yg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "cFv8BtqiaZoMzk9SsUcS0g=="
+          "hash": "wzuzTpHMCmoUEdv8OqZhtA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "nSoH4e+gCE7FCAIHNGoSWQ=="
+          "hash": "yyulrLMrkbe0tFLH8OMfHg=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "b1o8wJ6rxXCkj/7yodQZfg=="
+          "hash": "ts9Mygq+VWOZeB2AXUyskA=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "u/dVqJXej3FuQdYr6eDkxA=="
+          "hash": "kQuZFZn1uiKhXy484ZdjgA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "37z31e//ssNsGudljRQLYA=="
+          "hash": "Qx6dxodhXXNQoEjK544FZw=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "3Ap9ChyIAZQOuOnjSvWKcQ=="
+          "hash": "Uzie9fIdJVuaw0bWxy55oA=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "p0HnqcfSmNIVxqiXQ7S35g=="
+          "hash": "kKs5xwSrwum44/xjsh7cyw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
-          "hash": "FdqVNuDvV24hQ8/31ze/BA=="
+          "hash": "oe0DPHge4iJpUgAq1tY+MA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Tests.SerializerTests.html",
-          "hash": "j0+tdMYVnmPpHthRvc+FdA=="
+          "hash": "DdvPPbanZzQvxPNdk5dBOQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Tests.UdpReceiverTests.html",
-          "hash": "g2HpoFhIdv3cbxD8DAspRg=="
+          "hash": "ts0PRoGqOVscm6m4RNSqig=="
         }
       },
       "is_incremental": false,
@@ -267,10 +267,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -279,11 +280,10 @@
           "total_file_count": 17,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 1,
           "skipped_file_count": 0
         }
       }
