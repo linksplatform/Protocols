@@ -5,20 +5,6 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Communication", "Platform.Communication\Platform.Communication.csproj", "{BBA0C2A7-F555-415E-AD33-77088F3D7BB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D7A9BC-9B53-476B-AEF2-D29BB81FB95C}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-		.travis.yml = .travis.yml
-		docfx.json = docfx.json
-		format-csharp-files.py = format-csharp-files.py
-		format-document.sh = format-document.sh
-		generate-pdf.sh = generate-pdf.sh
-		publish-docs.sh = publish-docs.sh
-		push-nuget.bat = push-nuget.bat
-		README.md = README.md
-		toc.yml = toc.yml
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Communication.Tests", "Platform.Communication.Tests\Platform.Communication.Tests.csproj", "{9E717AE9-2881-4249-8451-CDA262E4E6EF}"
 EndProject
 Global
