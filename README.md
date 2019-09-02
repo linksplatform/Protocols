@@ -13,20 +13,25 @@ Forked from: [Konard/LinksPlatform/Platform/Platform.Communication](https://gith
 NuGet package: [Platform.Communication](https://www.nuget.org/packages/Platform.Communication)
 
 ## [Documentation](https://linksplatform.github.io/Communication)
+Namespaces:
+*   [Platform.Communication.Protocol.Gexf](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Gexf.html)
+*   [Platform.Communication.Protocol.Udp](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Udp.html)
+*   [Platform.Communication.Protocol.Xml](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Xml.html)
+
 [PDF file](https://linksplatform.github.io/Communication/Platform.Communication.pdf) with code for e-readers.
 
 ## Depend on
-* [Platform.Threading](https://github.com/linksplatform/Threading)
-* [Platform.Singletons](https://github.com/linksplatform/Singletons)
+*   [Platform.Threading](https://github.com/linksplatform/Threading)
+*   [Platform.Singletons](https://github.com/linksplatform/Singletons)
 
 ## Dependent libraries
-* [Platform.Data.Triplets](https://github.com/linksplatform/Data.Triplets)
+*   [Platform.Data.Triplets](https://github.com/linksplatform/Data.Triplets)
 
 ## Mystery files
-* [.travis.yml](https://github.com/linksplatform/Communication/blob/master/.travis.yml) - Travis CI build configuration.
-* [docfx.json](https://github.com/linksplatform/Communication/blob/master/docfx.json) and [toc.yml](https://github.com/linksplatform/Communication/blob/master/toc.yml) - DocFX build configuration.
-* [format-document.sh](https://github.com/linksplatform/Communication/blob/master/format-document.sh) - script for formating `tex` file for generating PDF from it.
-* [format-csharp-files.py](https://github.com/linksplatform/Communication/blob/master/format-csharp-files.py) - script for formating single `.cs` file as a part of `tex` file.
-* [generate-pdf.sh](https://github.com/linksplatform/Communication/blob/master/generate-pdf.sh) - script that generates PDF with code for e-readers.
-* [publish-docs.sh](https://github.com/linksplatform/Communication/blob/master/publish-docs.sh) - script that publishes generated documentation and PDF with code for e-readers to `gh-pages` branch.
-* [push-nuget.bat](https://github.com/linksplatform/Communication/blob/master/push-nuget.bat) - Windows script for publishing current version of NuGet package.
+*   [.travis.yml](https://github.com/linksplatform/Communication/blob/master/.travis.yml) - Travis CI build configuration.
+*   [docfx.json](https://github.com/linksplatform/Communication/blob/master/docfx.json) and [toc.yml](https://github.com/linksplatform/Communication/blob/master/toc.yml) - DocFX build configuration.
+*   [format-document.sh](https://github.com/linksplatform/Communication/blob/master/format-document.sh) - script for formatting `tex` file for generating PDF from it.
+*   [format-csharp-files.py](https://github.com/linksplatform/Communication/blob/master/format-csharp-files.py) - script for formatting `.cs` files as a part of `tex` file.
+*   [generate-pdf.sh](https://github.com/linksplatform/Communication/blob/master/generate-pdf.sh) - script that generates PDF with code for e-readers.
+*   [publish-docs.sh](https://github.com/linksplatform/Communication/blob/master/publish-docs.sh) - script that publishes generated documentation and PDF with code for e-readers to `gh-pages` branch.
+*   [push-nuget.bat](https://github.com/linksplatform/Communication/blob/master/push-nuget.bat) - Windows script for publishing current version of NuGet package.
