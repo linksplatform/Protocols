@@ -31,11 +31,7 @@ namespace Platform.Communication.Protocol.Gexf
         [XmlArrayItem(ElementName = EdgeElementName)]
         public List<Edge> Edges { get; set; }
 
-        public Graph()
-        {
-            Nodes = new List<Node>();
-            Edges = new List<Edge>();
-        }
+        public Graph() => (Nodes, Edges) = (new List<Node>(), new List<Edge>());
 
         public void WriteXml(XmlWriter writer) => WriteXml(writer, () => WriteNodes(writer), () => WriteEdges(writer), Mode, DefaultEdgeType);
 

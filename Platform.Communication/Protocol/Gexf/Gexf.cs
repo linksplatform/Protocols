@@ -21,11 +21,7 @@ namespace Platform.Communication.Protocol.Gexf
         [XmlElement(ElementName = GraphElementName)]
         public Graph Graph { get; set; }
 
-        public Gexf()
-        {
-            Version = CurrentVersion;
-            Graph = new Graph();
-        }
+        public Gexf() => (Version, Graph) = (CurrentVersion, new Graph());
 
         public void WriteXml(XmlWriter writer) => WriteXml(writer, () => Graph.WriteXml(writer), Version);
 

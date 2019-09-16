@@ -37,20 +37,11 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
-        public UdpReceiver(int listenPort, MessageHandlerCallback messageHandler)
-            : this(listenPort, true, messageHandler)
-        {
-        }
+        public UdpReceiver(int listenPort, MessageHandlerCallback messageHandler) : this(listenPort, true, messageHandler) { }
 
-        public UdpReceiver(MessageHandlerCallback messageHandler)
-            : this(DefaultPort, true, messageHandler)
-        {
-        }
+        public UdpReceiver(MessageHandlerCallback messageHandler) : this(DefaultPort, true, messageHandler) { }
 
-        public UdpReceiver()
-            : this(DefaultPort, true, message => { })
-        {
-        }
+        public UdpReceiver() : this(DefaultPort, true, message => { }) { }
 
         public void Start()
         {
