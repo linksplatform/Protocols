@@ -35,7 +35,7 @@ Refactoring.</PackageReleaseNotes>
   </ItemGroup>
     
   <ItemGroup>
-    <PackageReference Include="Platform.Threading" Version="0.1.0" />
+    <PackageReference Include="Platform.Threading" Version="0.1.1" />
     <PackageReference Include="Platform.Singletons" Version="0.0.4" />
   </ItemGroup>
 
