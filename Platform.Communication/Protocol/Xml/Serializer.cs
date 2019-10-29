@@ -14,28 +14,22 @@ namespace Platform.Communication.Protocol.Xml
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T FromFile(string path)
         {
-            using (var stream = File.OpenRead(path))
-            {
-                return (T)Instance.Deserialize(stream);
-            }
+            using var stream = File.OpenRead(path);
+            return (T)Instance.Deserialize(stream);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T FromString(string xml)
         {
-            using (var reader = new StringReader(xml))
-            {
-                return (T)Instance.Deserialize(reader);
-            }
+            using var reader = new StringReader(xml);
+            return (T)Instance.Deserialize(reader);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void ToFile(T @object, string path)
         {
-            using (var stream = File.OpenWrite(path))
-            {
-                Instance.Serialize(stream, @object);
-            }
+            using var stream = File.OpenWrite(path);
+            Instance.Serialize(stream, @object);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]

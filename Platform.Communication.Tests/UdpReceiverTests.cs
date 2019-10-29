@@ -8,9 +8,7 @@ namespace Platform.Communication.Tests
         [Fact]
         public static void DisposalTest()
         {
-            using (var receiver = new UdpReceiver())
-            {
-            }
+            using var receiver = new UdpReceiver();
         }
     }
 }
