@@ -79,8 +79,10 @@ namespace Platform.Communication.Protocol.Udp
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void ReceiveAndHandle() => _messageHandler(Receive());
 
-        // Функция извлекающая пришедшие сообщения
-        // и работающая в отдельном потоке.
+        /// <remarks>
+        /// <para>The method receives messages and runs in a separate thread.</para>
+        /// <para>Метод получает сообщения и работает в отдельном потоке.</para>
+        /// </remarks>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void Receiver()
         {
