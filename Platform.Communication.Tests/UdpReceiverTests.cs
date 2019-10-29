@@ -3,7 +3,7 @@ using Platform.Communication.Protocol.Udp;
 
 namespace Platform.Communication.Tests
 {
-    public class UdpReceiverTests
+    public static class UdpReceiverTests
     {
         [Fact]
         public static void DisposalTest()
