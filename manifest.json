@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/travis/build/linksplatform/Communication",
+  "source_base_path": "/home/runner/work/Communication/Communication",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "o0jqm6JvhO/dgElAbk1ANw=="
+          "hash": "ZtnnmAgkk2QG0AIdtkBT5w=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "oLSDrIGAtCeDD34sIgjWSA=="
+          "hash": "cPwwLJjYBkAa+jbteyg6fg=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "WINaEiHecFiuL9Tdi61PWw=="
+          "hash": "hmnYBPwOdP11nT93gHt+/A=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "vZdr9QDMj6v4dEcOLtMUtA=="
+          "hash": "e45aCDDlYMKK0KeIbSmeog=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "3mfAzGiQVNjw7yEhO2JICw=="
+          "hash": "oM952+x4UlfEJNnTl3czTA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "4ogRbxkWo8wK7kX96HOufQ=="
+          "hash": "ppaFmzumVcHle5MvG+ZlpQ=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "6O5Aq1bhqtxkwM5CRweNGw=="
+          "hash": "2IL1VhZgEZeBF1ImQW9SXw=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "owfq7BxsbUwxIxafzLawwA=="
+          "hash": "Q7a6j0Km0mhpbHjqduSFaA=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "jyR3M/LjTVUGp+3LA15mKA=="
+          "hash": "20oyTRoZ4sfhr9vAl16czw=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "t9iwk338XzAe/sqO2cJ/TA=="
+          "hash": "/KfsRnEiyzZq7FInIlZ1zQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "q73Skyu/Qf/AJ17sKSz1ew=="
+          "hash": "UNQJBTrTxSRPtc9k6zyZTQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
-          "hash": "X6xl+DhJqopyAfjeyTG89g=="
+          "hash": "AndGkrg13sCIpe+Fkf9ISw=="
         }
       },
       "is_incremental": false,
@@ -193,48 +193,12 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Tests.SerializerTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Tests.SerializerTests.html",
-          "hash": "gWrqLEmTj2ruYJGCzQyCtA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Tests.UdpReceiverTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Tests.UdpReceiverTests.html",
-          "hash": "oqNCz8bgHn+M5aVHFMpkWg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Tests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Tests.html",
-          "hash": "XB7+HFXKCe9rOrbYMTmhug=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "obj/api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "wROOjU0w0YQEQP6WiHY/Lw=="
+          "hash": "bIafcBTah24kdyaBhlXIcQ=="
         }
       },
       "is_incremental": false,
@@ -249,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "yNdY5HgCzm2Bq+GUXcAjHw=="
+          "hash": "pIA9C5qhlijVltTm43Wrng=="
         }
       },
       "is_incremental": false,
@@ -283,7 +247,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 17,
+          "total_file_count": 14,
           "skipped_file_count": 0
         }
       }
