@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -15,21 +16,48 @@ namespace Platform.Communication.Protocol.Gexf
         public const string LabelAttributeName = "label";
 
         [XmlAttribute(AttributeName = IdAttributeName)]
-        public long Id { get; set; }
+        public long Id
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlAttribute(AttributeName = SourceAttributeName)]
-        public long Source { get; set; }
+        public long Source
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlAttribute(AttributeName = TargetAttributeName)]
-        public long Target { get; set; }
+        public long Target
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlAttribute(AttributeName = LabelAttributeName)]
-        public string Label { get; set; }
+        public string Label
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void WriteXml(XmlWriter writer) => WriteXml(writer, Id, Source, Target, Label);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, long id, long sourceNodeId, long targetNodeId) => WriteXml(writer, id, sourceNodeId, targetNodeId, null);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, long id, long sourceNodeId, long targetNodeId, string label)
         {
             // <edge id="0" source="0" target="0" label="..." />

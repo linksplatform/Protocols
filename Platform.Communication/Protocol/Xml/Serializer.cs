@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Xml.Serialization;
 
@@ -10,6 +11,7 @@ namespace Platform.Communication.Protocol.Xml
     {
         public static readonly XmlSerializer Instance = new XmlSerializer(typeof(T));
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T FromFile(string path)
         {
             using (var stream = File.OpenRead(path))
@@ -18,6 +20,7 @@ namespace Platform.Communication.Protocol.Xml
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static T FromString(string xml)
         {
             using (var reader = new StringReader(xml))
@@ -26,6 +29,7 @@ namespace Platform.Communication.Protocol.Xml
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void ToFile(T @object, string path)
         {
             using (var stream = File.OpenWrite(path))
@@ -34,6 +38,7 @@ namespace Platform.Communication.Protocol.Xml
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string ToString(T @object)
         {
             var sb = new StringBuilder();

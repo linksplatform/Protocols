@@ -16,17 +16,22 @@ namespace Platform.Communication.Protocol.Udp
         private readonly UdpClient _udp;
         private readonly IPEndPoint _ipendpoint;
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpSender(IPEndPoint ipendpoint) => (_udp, _ipendpoint) = (new UdpClient(), ipendpoint);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpSender(IPAddress address, int port) : this(new IPEndPoint(address, port)) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpSender(string hostname, int port) : this(IPAddress.Parse(hostname), port) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpSender(int port) : this(IPAddress.Loopback, port) { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public int Send(string message) => _udp.SendString(_ipendpoint, message);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected override void Dispose(bool manual, bool wasDisposed)
         {
             if (!wasDisposed)

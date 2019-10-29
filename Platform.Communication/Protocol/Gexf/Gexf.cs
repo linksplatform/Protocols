@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -16,17 +17,33 @@ namespace Platform.Communication.Protocol.Gexf
         public static readonly string CurrentVersion = "1.2";
 
         [XmlAttribute(AttributeName = VersionAttributeName)]
-        public string Version { get; set; }
+        public string Version
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlElement(ElementName = GraphElementName)]
-        public Graph Graph { get; set; }
+        public Graph Graph
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Gexf() => (Version, Graph) = (CurrentVersion, new Graph());
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void WriteXml(XmlWriter writer) => WriteXml(writer, () => Graph.WriteXml(writer), Version);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeGraph) => WriteXml(writer, writeGraph, CurrentVersion);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeGraph, string version)
         {
             writer.WriteStartDocument();
@@ -37,12 +54,16 @@ namespace Platform.Communication.Protocol.Gexf
             writer.WriteEndDocument();
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges) => WriteXml(writer, writeNodes, writeEdges, CurrentVersion, GraphMode.Static, GraphDefaultEdgeType.Directed);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version) => WriteXml(writer, writeNodes, writeEdges, version, GraphMode.Static, GraphDefaultEdgeType.Directed);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version, GraphMode mode) => WriteXml(writer, writeNodes, writeEdges, version, mode, GraphDefaultEdgeType.Directed);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version, GraphMode mode, GraphDefaultEdgeType defaultEdgeType) => WriteXml(writer, () => Graph.WriteXml(writer, writeNodes, writeEdges, mode, defaultEdgeType), version);
     }
 }

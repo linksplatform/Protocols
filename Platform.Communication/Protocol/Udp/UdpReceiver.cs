@@ -25,8 +25,13 @@ namespace Platform.Communication.Protocol.Udp
         private readonly UdpClient _udp;
         private readonly MessageHandlerCallback _messageHandler;
 
-        public bool Available => _udp.Available > 0;
+        public bool Available
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get => _udp.Available > 0;
+        }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(int listenPort, bool autoStart, MessageHandlerCallback messageHandler)
         {
             _udp = new UdpClient(listenPort);
@@ -37,12 +42,16 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(int listenPort, MessageHandlerCallback messageHandler) : this(listenPort, true, messageHandler) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(MessageHandlerCallback messageHandler) : this(DefaultPort, true, messageHandler) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver() : this(DefaultPort, true, message => { }) { }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Start()
         {
             if (!_receiverRunning && _thread == null)
@@ -53,6 +62,7 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Stop()
         {
             if (_receiverRunning && _thread != null)
@@ -71,6 +81,7 @@ namespace Platform.Communication.Protocol.Udp
 
         // Функция извлекающая пришедшие сообщения
         // и работающая в отдельном потоке.
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void Receiver()
         {
             while (_receiverRunning)
@@ -93,6 +104,7 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected override void Dispose(bool manual, bool wasDisposed)
         {
             if (!wasDisposed)

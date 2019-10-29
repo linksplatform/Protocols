@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Runtime.CompilerServices;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -13,13 +14,27 @@ namespace Platform.Communication.Protocol.Gexf
         public const string LabelAttributeName = "label";
 
         [XmlAttribute(AttributeName = IdAttributeName)]
-        public long Id { get; set; }
+        public long Id
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlAttribute(AttributeName = LabelAttributeName)]
-        public string Label { get; set; }
+        public string Label
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void WriteXml(XmlWriter writer) => WriteXml(writer, Id, Label);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, long id, string label)
         {
             // <node id="0" label="..." />

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -18,23 +19,50 @@ namespace Platform.Communication.Protocol.Gexf
         public const string EdgeElementName = "edge";
 
         [XmlAttribute(AttributeName = ModeAttributeName)]
-        public GraphMode Mode { get; set; }
+        public GraphMode Mode
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlAttribute(AttributeName = DefaultEdgeTypeAttributeName)]
-        public GraphDefaultEdgeType DefaultEdgeType { get; set; }
+        public GraphDefaultEdgeType DefaultEdgeType
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlArray(ElementName = NodesElementName)]
         [XmlArrayItem(ElementName = NodeElementName)]
-        public List<Node> Nodes { get; set; }
+        public List<Node> Nodes
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
         [XmlArray(ElementName = EdgesElementName)]
         [XmlArrayItem(ElementName = EdgeElementName)]
-        public List<Edge> Edges { get; set; }
+        public List<Edge> Edges
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get;
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            set;
+        }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Graph() => (Nodes, Edges) = (new List<Node>(), new List<Edge>());
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void WriteXml(XmlWriter writer) => WriteXml(writer, () => WriteNodes(writer), () => WriteEdges(writer), Mode, DefaultEdgeType);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void WriteEdges(XmlWriter writer)
         {
             for (var i = 0; i < Edges.Count; i++)
@@ -43,6 +71,7 @@ namespace Platform.Communication.Protocol.Gexf
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void WriteNodes(XmlWriter writer)
         {
             for (var i = 0; i < Nodes.Count; i++)
@@ -51,10 +80,13 @@ namespace Platform.Communication.Protocol.Gexf
             }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges) => WriteXml(writer, writeNodes, writeEdges, GraphMode.Static, GraphDefaultEdgeType.Directed);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, GraphMode mode) => WriteXml(writer, writeNodes, writeEdges, mode, GraphDefaultEdgeType.Directed);
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, GraphMode mode, GraphDefaultEdgeType defaultEdgeType)
         {
             writer.WriteStartElement(ElementName);
