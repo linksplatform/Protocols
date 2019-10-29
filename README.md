@@ -1,5 +1,5 @@
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Communication)](https://www.nuget.org/packages/Platform.Communication)
-[![Build Status](https://travis-ci.com/linksplatform/Communication.svg?branch=master)](https://travis-ci.com/linksplatform/Communication)
+[![Actions Status](https://github.com/linksplatform/Communication/workflows/CD/badge.svg)](https://github.com/linksplatform/Communication/actions?workflow=CD)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c25f708dc08b4f7e8d96c671378bb1ad)](https://app.codacy.com/app/drakonard/Communication?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Communication&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/communication/badge)](https://www.codefactor.io/repository/github/linksplatform/communication)
 
