@@ -13,8 +13,8 @@ namespace Platform.Communication.Protocol.Udp
     public delegate void MessageHandlerCallback(string message);
 
     /// <summary>
-    /// Represents the receiver of messages transfered via UDP protocol.
-    /// Представляет получателя сообщений по протоколу UDP.
+    /// <para>Represents the receiver of messages transfered via UDP protocol.</para>
+    /// <para>Представляет получателя сообщений по протоколу UDP.</para>
     /// </summary>
     public class UdpReceiver : DisposableBase //-V3073
     {
