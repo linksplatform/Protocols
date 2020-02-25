@@ -1,0 +1,272 @@
+{
+  "homepages": [],
+  "source_base_path": "/home/runner/work/Communication/Communication",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "rbi4zxYQgjKUCarGyQelKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Edge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
+          "hash": "LDuSAqMp3rOZYseV5qGlVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Gexf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
+          "hash": "RGvTk64tc+UD/03H29qwLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Graph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
+          "hash": "3dfH5xifHF0BhcKNUuOcww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
+          "hash": "NiciUNYm4/jottHttXGKAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
+          "hash": "AhrdAYBEjQr4DnuAz33cdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
+          "hash": "UL+Ui0y6dWYgg4u2bcuDvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Gexf.html",
+          "hash": "tlgh+wd1nktFEvwcX3eP1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
+          "hash": "Em6jl4h8zljBSUEkY0MIKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
+          "hash": "rq1Q7eCFPAwNoPSKS6U3ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
+          "hash": "VrNUHEYewxX8HvSNnstA1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpSender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
+          "hash": "T9UQ0nvEflJy3mKrLL3mMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Udp.html",
+          "hash": "n/KMkQ39jGpoFDcqieWlrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.Serializer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
+          "hash": "hDw69DDj43p7TOJ1CaIVnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Platform.Communication.Protocol.Xml.html",
+          "hash": "Y1JEMsOrJ4ivu9qFo3e6nQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "W70JHZ4J93ys7dcIFdbkbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "PMgnnCMSdVWqr3jnrWKupQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 14,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
