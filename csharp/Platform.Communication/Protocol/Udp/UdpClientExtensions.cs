@@ -10,12 +10,12 @@ namespace Platform.Communication.Protocol.Udp
 {
     public static class UdpClientExtensions
     {
-        private static readonly Encoding _defaultEncoding = Singleton.Get(() => Encoding.GetEncoding(0));
+        public static readonly Encoding DefaultEncoding = Encoding.UTF8;
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static int SendString(this UdpClient udp, IPEndPoint ipEndPoint, string message)
         {
-            var bytes = _defaultEncoding.GetBytes(message);
+            var bytes = DefaultEncoding.GetBytes(message);
             return udp.Send(bytes, bytes.Length, ipEndPoint);
         }
 
@@ -23,7 +23,7 @@ namespace Platform.Communication.Protocol.Udp
         public static string ReceiveString(this UdpClient udp)
         {
             IPEndPoint remoteEndPoint = default;
-            return _defaultEncoding.GetString(udp.Receive(ref remoteEndPoint));
+            return DefaultEncoding.GetString(udp.Receive(ref remoteEndPoint));
         }
     }
 }
