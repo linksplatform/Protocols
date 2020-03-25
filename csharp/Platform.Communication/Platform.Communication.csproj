@@ -39,7 +39,6 @@ Platform.Singletons dependency updated from 0.0.7 to 0.1.0.</PackageReleaseNotes
     
   <ItemGroup>
     <PackageReference Include="Platform.Threading" Version="0.2.0" />
-    <PackageReference Include="Platform.Singletons" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
