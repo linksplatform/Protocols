@@ -505,6 +505,12 @@ references:
   commentId: T:Platform.Communication.Protocol.Udp.UdpClientExtensions
   fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions
   nameWithType: UdpClientExtensions
+- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
+  name: DefaultEncoding
+  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_DefaultEncoding
+  commentId: F:Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
+  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
+  nameWithType: UdpClientExtensions.DefaultEncoding
 - uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
   name: ReceiveString(UdpClient)
   href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_ReceiveString_System_Net_Sockets_UdpClient_
