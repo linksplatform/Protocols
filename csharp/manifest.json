@@ -18,187 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "dH+aGAopcMZ98WdHfoh2pA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Edge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "oSyP/QxaXQ4EBDDh/Yvhew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Gexf.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "t/+kmygWcx2CFC5+/e3+ZQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Graph.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "eY842OjvAPmSEMyWvqt9fw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "bKlY7ldTfPBBxb2p1yNCOQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphMode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "b7Ag0j1OusouiHGG1lFo1w=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Node.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "mZu/Nwa6GOWLBRKoJvJT8g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.html",
-          "hash": "hJrWOYlE9h2Bz68THtg+Mw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "5TF/8Cjc8iD6xwqh+Pa7bg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpClientExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "xRBp2OwYnCgCKpX+SwSM4g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpReceiver.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "r5rGjgx9BNzVYnYBIjhYnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpSender.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "7KqhOVVYmJDzCz/tMEPSbA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.html",
-          "hash": "9xg/Z8j4AaiGxz3kkhp1Mg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.Serializer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
-          "hash": "FXrqp5MbhTc8f+siChvATg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Xml.html",
-          "hash": "c5w4uwOt+9iQEB5zVFhzAA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "W70JHZ4J93ys7dcIFdbkbg=="
+          "hash": "Flxuv4ti6NVVRU8LbD7hPw=="
         }
       },
       "is_incremental": false,
@@ -213,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "PMgnnCMSdVWqr3jnrWKupQ=="
+          "hash": "1PkDZjvIXuyk7BAFGKj47Q=="
         }
       },
       "is_incremental": false,
@@ -235,12 +55,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
