@@ -14,11 +14,11 @@ NuGet package: [Platform.Communication](https://www.nuget.org/packages/Platform.
 
 ## [Documentation](https://linksplatform.github.io/Communication)
 Namespaces:
-*   [Platform.Communication.Protocol.Gexf](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Gexf.html)
-*   [Platform.Communication.Protocol.Udp](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Udp.html)
-*   [Platform.Communication.Protocol.Xml](https://linksplatform.github.io/Communication/api/Platform.Communication.Protocol.Xml.html)
+*   [Platform.Communication.Protocol.Gexf](https://linksplatform.github.io/Communication/csharp/api/Platform.Communication.Protocol.Gexf.html)
+*   [Platform.Communication.Protocol.Udp](https://linksplatform.github.io/Communication/csharp/api/Platform.Communication.Protocol.Udp.html)
+*   [Platform.Communication.Protocol.Xml](https://linksplatform.github.io/Communication/csharp/api/Platform.Communication.Protocol.Xml.html)
 
-[PDF file](https://linksplatform.github.io/Communication/Platform.Communication.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Communication/csharp/Platform.Communication.pdf) with code for e-readers.
 
 ## Depend on
 *   [Platform.Threading](https://github.com/linksplatform/Threading)
