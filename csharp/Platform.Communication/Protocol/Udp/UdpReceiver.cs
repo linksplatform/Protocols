@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Threading;
@@ -10,6 +10,12 @@ using Platform.Threading;
 
 namespace Platform.Communication.Protocol.Udp
 {
+    /// <summary>
+    /// <para>
+    /// The message handler callback.
+    /// </para>
+    /// <para></para>
+    /// </summary>
     public delegate void MessageHandlerCallback(string message);
 
     /// <summary>
@@ -18,19 +24,73 @@ namespace Platform.Communication.Protocol.Udp
     /// </summary>
     public class UdpReceiver : DisposableBase //-V3073
     {
+        /// <summary>
+        /// <para>
+        /// The default port.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private const int DefaultPort = 15000;
 
+        /// <summary>
+        /// <para>
+        /// The receiver running.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private bool _receiverRunning;
+        /// <summary>
+        /// <para>
+        /// The thread.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private Thread _thread;
+        /// <summary>
+        /// <para>
+        /// The udp.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private readonly UdpClient _udp;
+        /// <summary>
+        /// <para>
+        /// The message handler.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private readonly MessageHandlerCallback _messageHandler;
 
+        /// <summary>
+        /// <para>
+        /// Gets the available value.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         public bool Available
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get => _udp.Available > 0;
         }
 
+        /// <summary>
+        /// <para>
+        /// Initializes a new <see cref="UdpReceiver"/> instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="listenPort">
+        /// <para>A listen port.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="autoStart">
+        /// <para>A auto start.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="messageHandler">
+        /// <para>A message handler.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(int listenPort, bool autoStart, MessageHandlerCallback messageHandler)
         {
@@ -42,15 +102,51 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Initializes a new <see cref="UdpReceiver"/> instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="listenPort">
+        /// <para>A listen port.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="messageHandler">
+        /// <para>A message handler.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(int listenPort, MessageHandlerCallback messageHandler) : this(listenPort, true, messageHandler) { }
 
+        /// <summary>
+        /// <para>
+        /// Initializes a new <see cref="UdpReceiver"/> instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="messageHandler">
+        /// <para>A message handler.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver(MessageHandlerCallback messageHandler) : this(DefaultPort, true, messageHandler) { }
 
+        /// <summary>
+        /// <para>
+        /// Initializes a new <see cref="UdpReceiver"/> instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public UdpReceiver() : this(DefaultPort, true, message => { }) { }
 
+        /// <summary>
+        /// <para>
+        /// Starts this instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Start()
         {
@@ -62,6 +158,12 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Stops this instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Stop()
         {
@@ -73,9 +175,25 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Receives this instance.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <returns>
+        /// <para>The string</para>
+        /// <para></para>
+        /// </returns>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public string Receive() => _udp.ReceiveString();
 
+        /// <summary>
+        /// <para>
+        /// Receives the and handle.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void ReceiveAndHandle() => _messageHandler(Receive());
 
@@ -106,6 +224,20 @@ namespace Platform.Communication.Protocol.Udp
             }
         }
 
+        /// <summary>
+        /// <para>
+        /// Disposes the manual.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="manual">
+        /// <para>The manual.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="wasDisposed">
+        /// <para>The was disposed.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         protected override void Dispose(bool manual, bool wasDisposed)
         {
