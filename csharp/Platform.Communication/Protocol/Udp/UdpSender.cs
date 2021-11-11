@@ -13,19 +13,7 @@ namespace Platform.Communication.Protocol.Udp
     /// </summary>
     public class UdpSender : DisposableBase //-V3073
     {
-        /// <summary>
-        /// <para>
-        /// The udp.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private readonly UdpClient _udp;
-        /// <summary>
-        /// <para>
-        /// The ipendpoint.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         private readonly IPEndPoint _ipendpoint;
 
         /// <summary>
