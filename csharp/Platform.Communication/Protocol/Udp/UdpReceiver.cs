@@ -24,10 +24,41 @@ namespace Platform.Communication.Protocol.Udp
     /// </summary>
     public class UdpReceiver : DisposableBase //-V3073
     {
+        /// <summary>
+        /// <para>
+        /// The default port.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private const int DefaultPort = 15000;
+
+        /// <summary>
+        /// <para>
+        /// The receiver running.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private bool _receiverRunning;
+        /// <summary>
+        /// <para>
+        /// The thread.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private Thread _thread;
+        /// <summary>
+        /// <para>
+        /// The udp.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private readonly UdpClient _udp;
+        /// <summary>
+        /// <para>
+        /// The message handler.
+        /// </para>
+        /// <para></para>
+        /// </summary>
         private readonly MessageHandlerCallback _messageHandler;
 
         /// <summary>
@@ -165,7 +196,12 @@ namespace Platform.Communication.Protocol.Udp
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void ReceiveAndHandle() => _messageHandler(Receive());
-[MethodImpl(MethodImplOptions.AggressiveInlining)]
+
+        /// <remarks>
+        /// <para>The method receives messages and runs in a separate thread.</para>
+        /// <para>Метод получает сообщения и работает в отдельном потоке.</para>
+        /// </remarks>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void Receiver()
         {
             while (_receiverRunning)

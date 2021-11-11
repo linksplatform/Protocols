@@ -149,7 +149,18 @@ namespace Platform.Communication.Protocol.Gexf
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void WriteXml(XmlWriter writer) => WriteXml(writer, () => WriteNodes(writer), () => WriteEdges(writer), Mode, DefaultEdgeType);
-[MethodImpl(MethodImplOptions.AggressiveInlining)]
+
+        /// <summary>
+        /// <para>
+        /// Writes the edges using the specified writer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="writer">
+        /// <para>The writer.</para>
+        /// <para></para>
+        /// </param>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void WriteEdges(XmlWriter writer)
         {
             for (var i = 0; i < Edges.Count; i++)
@@ -157,7 +168,18 @@ namespace Platform.Communication.Protocol.Gexf
                 Edges[i].WriteXml(writer);
             }
         }
-[MethodImpl(MethodImplOptions.AggressiveInlining)]
+
+        /// <summary>
+        /// <para>
+        /// Writes the nodes using the specified writer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="writer">
+        /// <para>The writer.</para>
+        /// <para></para>
+        /// </param>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void WriteNodes(XmlWriter writer)
         {
             for (var i = 0; i < Nodes.Count; i++)
