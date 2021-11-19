@@ -6,20 +6,8 @@ using Platform.Communication.Protocol.Xml;
 
 namespace Platform.Communication.Tests
 {
-    /// <summary>
-    /// <para>
-    /// Represents the serializer tests.
-    /// </para>
-    /// <para></para>
-    /// </summary>
     public static class SerializerTests
     {
-        /// <summary>
-        /// <para>
-        /// Tests that serialize to file test.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         [Fact]
         public static void SerializeToFileTest()
         {
@@ -29,12 +17,6 @@ namespace Platform.Communication.Tests
             File.Delete(tempFilename);
         }
 
-        /// <summary>
-        /// <para>
-        /// Tests that serialize as xml string test.
-        /// </para>
-        /// <para></para>
-        /// </summary>
         [Fact]
         public static void SerializeAsXmlStringTest()
         {
