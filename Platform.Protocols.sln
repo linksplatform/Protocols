@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Communication", "csharp\Platform.Communication\Platform.Communication.csproj", "{566C7C25-E1D6-4FA3-A3CA-87AF646961D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Protocols", "csharp\Platform.Protocols\Platform.Protocols.csproj", "{566C7C25-E1D6-4FA3-A3CA-87AF646961D7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Communication.Tests", "csharp\Platform.Communication.Tests\Platform.Communication.Tests.csproj", "{64973837-21DE-42DB-B4B1-100B0216D7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Protocols.Tests", "csharp\Platform.Protocols.Tests\Platform.Protocols.Tests.csproj", "{64973837-21DE-42DB-B4B1-100B0216D7C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
