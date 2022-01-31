@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/home/runner/work/Communication/Communication",
+  "source_base_path": "/home/runner/work/Protocols/Protocols",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "FbVZsHgzM6u2+vEyvAZ1bw=="
+          "hash": "hPfNkB8HbuQ3ao5lmZ38QA=="
         }
       },
       "is_incremental": false,
@@ -26,11 +26,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Edge.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.Edge.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Edge.html",
-          "hash": "5vHsZUBRxTwoHae5vOi+UA=="
+          "relative_path": "api/Platform.Protocols.Gexf.Edge.html",
+          "hash": "TAPUzgvZQsP4hC3eJUxxEA=="
         }
       },
       "is_incremental": false,
@@ -38,11 +38,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Gexf.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.Gexf.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Gexf.html",
-          "hash": "TBt1PQAfkLEexnmb5qk30g=="
+          "relative_path": "api/Platform.Protocols.Gexf.Gexf.html",
+          "hash": "8KMwyqTTxB8EqwambBR+gA=="
         }
       },
       "is_incremental": false,
@@ -50,11 +50,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Graph.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.Graph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Graph.html",
-          "hash": "hDvPuZyQ14hCkkSuA2bLnA=="
+          "relative_path": "api/Platform.Protocols.Gexf.Graph.html",
+          "hash": "b6/b8WGbUTMUH4bkKYLIkg=="
         }
       },
       "is_incremental": false,
@@ -62,11 +62,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.GraphDefaultEdgeType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html",
-          "hash": "AjowVUgxReZ+DLqBmfN/PA=="
+          "relative_path": "api/Platform.Protocols.Gexf.GraphDefaultEdgeType.html",
+          "hash": "0E6zHG1seFP1ckXNLHReRQ=="
         }
       },
       "is_incremental": false,
@@ -74,11 +74,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.GraphMode.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.GraphMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.GraphMode.html",
-          "hash": "aGkhMw4hn4rnV+yF6nMV+A=="
+          "relative_path": "api/Platform.Protocols.Gexf.GraphMode.html",
+          "hash": "Lu7AlOpeIqaSueiaghCMFA=="
         }
       },
       "is_incremental": false,
@@ -86,11 +86,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.Node.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.Node.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.Node.html",
-          "hash": "hqlgZsxoB6NLp+s7TuiEhQ=="
+          "relative_path": "api/Platform.Protocols.Gexf.Node.html",
+          "hash": "noe4tx5PzrwTzPAw6g6f6g=="
         }
       },
       "is_incremental": false,
@@ -98,11 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Gexf.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Gexf.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Gexf.html",
-          "hash": "f1qXG3cKU+ZGwhLixNc1Eg=="
+          "relative_path": "api/Platform.Protocols.Gexf.html",
+          "hash": "jBmM28KXeNvJklyeN4Jpng=="
         }
       },
       "is_incremental": false,
@@ -110,11 +110,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Udp.MessageHandlerCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html",
-          "hash": "T0g0d3sIAio1xXm8r0J1MA=="
+          "relative_path": "api/Platform.Protocols.Udp.MessageHandlerCallback.html",
+          "hash": "gK2Zd1GtWQ5J6QiXRFBlcA=="
         }
       },
       "is_incremental": false,
@@ -122,11 +122,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpClientExtensions.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Udp.UdpClientExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html",
-          "hash": "bkSrDRUyNlSOnEPweNAm1g=="
+          "relative_path": "api/Platform.Protocols.Udp.UdpClientExtensions.html",
+          "hash": "1DIoluScGAo4RsKC8ELzWA=="
         }
       },
       "is_incremental": false,
@@ -134,11 +134,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpReceiver.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Udp.UdpReceiver.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpReceiver.html",
-          "hash": "xkgbDwvE8xC0hwVyDetCSA=="
+          "relative_path": "api/Platform.Protocols.Udp.UdpReceiver.html",
+          "hash": "3PZ04efeMfGzk8SHErD20A=="
         }
       },
       "is_incremental": false,
@@ -146,11 +146,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.UdpSender.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Udp.UdpSender.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.UdpSender.html",
-          "hash": "1kREnBaA2MrAnyjaYe7IIQ=="
+          "relative_path": "api/Platform.Protocols.Udp.UdpSender.html",
+          "hash": "6kEjNcoW9bDgfFw3VT6jRQ=="
         }
       },
       "is_incremental": false,
@@ -158,11 +158,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Udp.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Udp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Udp.html",
-          "hash": "Y0w/pneHFHs7JjGNr7FsdQ=="
+          "relative_path": "api/Platform.Protocols.Udp.html",
+          "hash": "IxGaG2w+7oCSXkKboaoPng=="
         }
       },
       "is_incremental": false,
@@ -170,11 +170,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.Serializer-1.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Xml.Serializer-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Xml.Serializer-1.html",
-          "hash": "kCv1Vu0ezEgrvVh9W40+6w=="
+          "relative_path": "api/Platform.Protocols.Xml.Serializer-1.html",
+          "hash": "KJIToBvRtl5ehwidqkvdqw=="
         }
       },
       "is_incremental": false,
@@ -182,11 +182,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Communication.Protocol.Xml.yml",
+      "source_relative_path": "obj/api/Platform.Protocols.Xml.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Platform.Communication.Protocol.Xml.html",
-          "hash": "swG3Ho2R5xYd37WwSSS4WQ=="
+          "relative_path": "api/Platform.Protocols.Xml.html",
+          "hash": "BPsHuVu3hoJwtP5OUO8zJA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "W70JHZ4J93ys7dcIFdbkbg=="
+          "hash": "YuuyRvTAMONXIiNNZyAuxw=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "PMgnnCMSdVWqr3jnrWKupQ=="
+          "hash": "/pQIkmR/wzQtQ9OD58Yw6Q=="
         }
       },
       "is_incremental": false,

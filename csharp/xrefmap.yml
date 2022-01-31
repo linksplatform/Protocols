@@ -1,808 +1,808 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Platform.Communication.Protocol.Gexf
-  name: Platform.Communication.Protocol.Gexf
-  href: api/Platform.Communication.Protocol.Gexf.html
-  commentId: N:Platform.Communication.Protocol.Gexf
-  fullName: Platform.Communication.Protocol.Gexf
-  nameWithType: Platform.Communication.Protocol.Gexf
-- uid: Platform.Communication.Protocol.Gexf.Edge
+- uid: Platform.Protocols.Gexf
+  name: Platform.Protocols.Gexf
+  href: api/Platform.Protocols.Gexf.html
+  commentId: N:Platform.Protocols.Gexf
+  fullName: Platform.Protocols.Gexf
+  nameWithType: Platform.Protocols.Gexf
+- uid: Platform.Protocols.Gexf.Edge
   name: Edge
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html
-  commentId: T:Platform.Communication.Protocol.Gexf.Edge
-  fullName: Platform.Communication.Protocol.Gexf.Edge
+  href: api/Platform.Protocols.Gexf.Edge.html
+  commentId: T:Platform.Protocols.Gexf.Edge
+  fullName: Platform.Protocols.Gexf.Edge
   nameWithType: Edge
-- uid: Platform.Communication.Protocol.Gexf.Edge.ElementName
+- uid: Platform.Protocols.Gexf.Edge.ElementName
   name: ElementName
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_ElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Edge.ElementName
-  fullName: Platform.Communication.Protocol.Gexf.Edge.ElementName
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_ElementName
+  commentId: F:Platform.Protocols.Gexf.Edge.ElementName
+  fullName: Platform.Protocols.Gexf.Edge.ElementName
   nameWithType: Edge.ElementName
-- uid: Platform.Communication.Protocol.Gexf.Edge.Id
+- uid: Platform.Protocols.Gexf.Edge.Id
   name: Id
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Id
-  commentId: P:Platform.Communication.Protocol.Gexf.Edge.Id
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Id
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Id
+  commentId: P:Platform.Protocols.Gexf.Edge.Id
+  fullName: Platform.Protocols.Gexf.Edge.Id
   nameWithType: Edge.Id
-- uid: Platform.Communication.Protocol.Gexf.Edge.Id*
+- uid: Platform.Protocols.Gexf.Edge.Id*
   name: Id
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Id_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Edge.Id
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Id_
+  commentId: Overload:Platform.Protocols.Gexf.Edge.Id
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Id
+  fullName: Platform.Protocols.Gexf.Edge.Id
   nameWithType: Edge.Id
-- uid: Platform.Communication.Protocol.Gexf.Edge.IdAttributeName
+- uid: Platform.Protocols.Gexf.Edge.IdAttributeName
   name: IdAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_IdAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Edge.IdAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Edge.IdAttributeName
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_IdAttributeName
+  commentId: F:Platform.Protocols.Gexf.Edge.IdAttributeName
+  fullName: Platform.Protocols.Gexf.Edge.IdAttributeName
   nameWithType: Edge.IdAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Edge.Label
+- uid: Platform.Protocols.Gexf.Edge.Label
   name: Label
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Label
-  commentId: P:Platform.Communication.Protocol.Gexf.Edge.Label
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Label
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Label
+  commentId: P:Platform.Protocols.Gexf.Edge.Label
+  fullName: Platform.Protocols.Gexf.Edge.Label
   nameWithType: Edge.Label
-- uid: Platform.Communication.Protocol.Gexf.Edge.Label*
+- uid: Platform.Protocols.Gexf.Edge.Label*
   name: Label
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Label_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Edge.Label
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Label_
+  commentId: Overload:Platform.Protocols.Gexf.Edge.Label
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Label
+  fullName: Platform.Protocols.Gexf.Edge.Label
   nameWithType: Edge.Label
-- uid: Platform.Communication.Protocol.Gexf.Edge.LabelAttributeName
+- uid: Platform.Protocols.Gexf.Edge.LabelAttributeName
   name: LabelAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_LabelAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Edge.LabelAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Edge.LabelAttributeName
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_LabelAttributeName
+  commentId: F:Platform.Protocols.Gexf.Edge.LabelAttributeName
+  fullName: Platform.Protocols.Gexf.Edge.LabelAttributeName
   nameWithType: Edge.LabelAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Edge.Source
+- uid: Platform.Protocols.Gexf.Edge.Source
   name: Source
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Source
-  commentId: P:Platform.Communication.Protocol.Gexf.Edge.Source
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Source
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Source
+  commentId: P:Platform.Protocols.Gexf.Edge.Source
+  fullName: Platform.Protocols.Gexf.Edge.Source
   nameWithType: Edge.Source
-- uid: Platform.Communication.Protocol.Gexf.Edge.Source*
+- uid: Platform.Protocols.Gexf.Edge.Source*
   name: Source
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Source_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Edge.Source
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Source_
+  commentId: Overload:Platform.Protocols.Gexf.Edge.Source
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Source
+  fullName: Platform.Protocols.Gexf.Edge.Source
   nameWithType: Edge.Source
-- uid: Platform.Communication.Protocol.Gexf.Edge.SourceAttributeName
+- uid: Platform.Protocols.Gexf.Edge.SourceAttributeName
   name: SourceAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_SourceAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Edge.SourceAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Edge.SourceAttributeName
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_SourceAttributeName
+  commentId: F:Platform.Protocols.Gexf.Edge.SourceAttributeName
+  fullName: Platform.Protocols.Gexf.Edge.SourceAttributeName
   nameWithType: Edge.SourceAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Edge.Target
+- uid: Platform.Protocols.Gexf.Edge.Target
   name: Target
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Target
-  commentId: P:Platform.Communication.Protocol.Gexf.Edge.Target
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Target
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Target
+  commentId: P:Platform.Protocols.Gexf.Edge.Target
+  fullName: Platform.Protocols.Gexf.Edge.Target
   nameWithType: Edge.Target
-- uid: Platform.Communication.Protocol.Gexf.Edge.Target*
+- uid: Platform.Protocols.Gexf.Edge.Target*
   name: Target
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_Target_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Edge.Target
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_Target_
+  commentId: Overload:Platform.Protocols.Gexf.Edge.Target
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Edge.Target
+  fullName: Platform.Protocols.Gexf.Edge.Target
   nameWithType: Edge.Target
-- uid: Platform.Communication.Protocol.Gexf.Edge.TargetAttributeName
+- uid: Platform.Protocols.Gexf.Edge.TargetAttributeName
   name: TargetAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_TargetAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Edge.TargetAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Edge.TargetAttributeName
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_TargetAttributeName
+  commentId: F:Platform.Protocols.Gexf.Edge.TargetAttributeName
+  fullName: Platform.Protocols.Gexf.Edge.TargetAttributeName
   nameWithType: Edge.TargetAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
+- uid: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_WriteXml_System_Xml_XmlWriter_
-  commentId: M:Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
-  fullName: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_WriteXml_System_Xml_XmlWriter_
+  commentId: M:Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
+  fullName: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter)
   nameWithType: Edge.WriteXml(XmlWriter)
-- uid: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64)
+- uid: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64)
   name: WriteXml(XmlWriter, Int64, Int64, Int64)
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_WriteXml_System_Xml_XmlWriter_System_Int64_System_Int64_System_Int64_
-  commentId: M:Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64)
-  fullName: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter, System.Int64, System.Int64, System.Int64)
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_WriteXml_System_Xml_XmlWriter_System_Int64_System_Int64_System_Int64_
+  commentId: M:Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64)
+  fullName: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter, System.Int64, System.Int64, System.Int64)
   nameWithType: Edge.WriteXml(XmlWriter, Int64, Int64, Int64)
-- uid: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64,System.String)
+- uid: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64,System.String)
   name: WriteXml(XmlWriter, Int64, Int64, Int64, String)
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_WriteXml_System_Xml_XmlWriter_System_Int64_System_Int64_System_Int64_System_String_
-  commentId: M:Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64,System.String)
-  fullName: Platform.Communication.Protocol.Gexf.Edge.WriteXml(System.Xml.XmlWriter, System.Int64, System.Int64, System.Int64, System.String)
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_WriteXml_System_Xml_XmlWriter_System_Int64_System_Int64_System_Int64_System_String_
+  commentId: M:Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter,System.Int64,System.Int64,System.Int64,System.String)
+  fullName: Platform.Protocols.Gexf.Edge.WriteXml(System.Xml.XmlWriter, System.Int64, System.Int64, System.Int64, System.String)
   nameWithType: Edge.WriteXml(XmlWriter, Int64, Int64, Int64, String)
-- uid: Platform.Communication.Protocol.Gexf.Edge.WriteXml*
+- uid: Platform.Protocols.Gexf.Edge.WriteXml*
   name: WriteXml
-  href: api/Platform.Communication.Protocol.Gexf.Edge.html#Platform_Communication_Protocol_Gexf_Edge_WriteXml_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Edge.WriteXml
+  href: api/Platform.Protocols.Gexf.Edge.html#Platform_Protocols_Gexf_Edge_WriteXml_
+  commentId: Overload:Platform.Protocols.Gexf.Edge.WriteXml
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Edge.WriteXml
+  fullName: Platform.Protocols.Gexf.Edge.WriteXml
   nameWithType: Edge.WriteXml
-- uid: Platform.Communication.Protocol.Gexf.Gexf
+- uid: Platform.Protocols.Gexf.Gexf
   name: Gexf
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html
-  commentId: T:Platform.Communication.Protocol.Gexf.Gexf
-  fullName: Platform.Communication.Protocol.Gexf.Gexf
+  href: api/Platform.Protocols.Gexf.Gexf.html
+  commentId: T:Platform.Protocols.Gexf.Gexf
+  fullName: Platform.Protocols.Gexf.Gexf
   nameWithType: Gexf
-- uid: Platform.Communication.Protocol.Gexf.Gexf.#ctor
+- uid: Platform.Protocols.Gexf.Gexf.#ctor
   name: Gexf()
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf__ctor
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.#ctor
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Gexf()
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf__ctor
+  commentId: M:Platform.Protocols.Gexf.Gexf.#ctor
+  fullName: Platform.Protocols.Gexf.Gexf.Gexf()
   nameWithType: Gexf.Gexf()
-- uid: Platform.Communication.Protocol.Gexf.Gexf.#ctor*
+- uid: Platform.Protocols.Gexf.Gexf.#ctor*
   name: Gexf
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf__ctor_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Gexf.#ctor
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf__ctor_
+  commentId: Overload:Platform.Protocols.Gexf.Gexf.#ctor
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Gexf
+  fullName: Platform.Protocols.Gexf.Gexf.Gexf
   nameWithType: Gexf.Gexf
-- uid: Platform.Communication.Protocol.Gexf.Gexf.CurrentVersion
+- uid: Platform.Protocols.Gexf.Gexf.CurrentVersion
   name: CurrentVersion
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_CurrentVersion
-  commentId: F:Platform.Communication.Protocol.Gexf.Gexf.CurrentVersion
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.CurrentVersion
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_CurrentVersion
+  commentId: F:Platform.Protocols.Gexf.Gexf.CurrentVersion
+  fullName: Platform.Protocols.Gexf.Gexf.CurrentVersion
   nameWithType: Gexf.CurrentVersion
-- uid: Platform.Communication.Protocol.Gexf.Gexf.ElementName
+- uid: Platform.Protocols.Gexf.Gexf.ElementName
   name: ElementName
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_ElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Gexf.ElementName
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.ElementName
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_ElementName
+  commentId: F:Platform.Protocols.Gexf.Gexf.ElementName
+  fullName: Platform.Protocols.Gexf.Gexf.ElementName
   nameWithType: Gexf.ElementName
-- uid: Platform.Communication.Protocol.Gexf.Gexf.Graph
+- uid: Platform.Protocols.Gexf.Gexf.Graph
   name: Graph
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_Graph
-  commentId: P:Platform.Communication.Protocol.Gexf.Gexf.Graph
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Graph
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_Graph
+  commentId: P:Platform.Protocols.Gexf.Gexf.Graph
+  fullName: Platform.Protocols.Gexf.Gexf.Graph
   nameWithType: Gexf.Graph
-- uid: Platform.Communication.Protocol.Gexf.Gexf.Graph*
+- uid: Platform.Protocols.Gexf.Gexf.Graph*
   name: Graph
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_Graph_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Gexf.Graph
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_Graph_
+  commentId: Overload:Platform.Protocols.Gexf.Gexf.Graph
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Graph
+  fullName: Platform.Protocols.Gexf.Gexf.Graph
   nameWithType: Gexf.Graph
-- uid: Platform.Communication.Protocol.Gexf.Gexf.GraphElementName
+- uid: Platform.Protocols.Gexf.Gexf.GraphElementName
   name: GraphElementName
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_GraphElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Gexf.GraphElementName
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.GraphElementName
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_GraphElementName
+  commentId: F:Platform.Protocols.Gexf.Gexf.GraphElementName
+  fullName: Platform.Protocols.Gexf.Gexf.GraphElementName
   nameWithType: Gexf.GraphElementName
-- uid: Platform.Communication.Protocol.Gexf.Gexf.Namespace
+- uid: Platform.Protocols.Gexf.Gexf.Namespace
   name: Namespace
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_Namespace
-  commentId: F:Platform.Communication.Protocol.Gexf.Gexf.Namespace
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Namespace
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_Namespace
+  commentId: F:Platform.Protocols.Gexf.Gexf.Namespace
+  fullName: Platform.Protocols.Gexf.Gexf.Namespace
   nameWithType: Gexf.Namespace
-- uid: Platform.Communication.Protocol.Gexf.Gexf.Version
+- uid: Platform.Protocols.Gexf.Gexf.Version
   name: Version
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_Version
-  commentId: P:Platform.Communication.Protocol.Gexf.Gexf.Version
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Version
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_Version
+  commentId: P:Platform.Protocols.Gexf.Gexf.Version
+  fullName: Platform.Protocols.Gexf.Gexf.Version
   nameWithType: Gexf.Version
-- uid: Platform.Communication.Protocol.Gexf.Gexf.Version*
+- uid: Platform.Protocols.Gexf.Gexf.Version*
   name: Version
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_Version_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Gexf.Version
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_Version_
+  commentId: Overload:Platform.Protocols.Gexf.Gexf.Version
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.Version
+  fullName: Platform.Protocols.Gexf.Gexf.Version
   nameWithType: Gexf.Version
-- uid: Platform.Communication.Protocol.Gexf.Gexf.VersionAttributeName
+- uid: Platform.Protocols.Gexf.Gexf.VersionAttributeName
   name: VersionAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_VersionAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Gexf.VersionAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.VersionAttributeName
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_VersionAttributeName
+  commentId: F:Platform.Protocols.Gexf.Gexf.VersionAttributeName
+  fullName: Platform.Protocols.Gexf.Gexf.VersionAttributeName
   nameWithType: Gexf.VersionAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter)
   nameWithType: Gexf.WriteXml(XmlWriter)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action)
   name: WriteXml(XmlWriter, Action)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action)
   nameWithType: Gexf.WriteXml(XmlWriter, Action)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
   name: WriteXml(XmlWriter, Action, Action)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action)
   nameWithType: Gexf.WriteXml(XmlWriter, Action, Action)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String)
   name: WriteXml(XmlWriter, Action, Action, String)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String)
   nameWithType: Gexf.WriteXml(XmlWriter, Action, Action, String)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Communication.Protocol.Gexf.GraphMode)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Protocols.Gexf.GraphMode)
   name: WriteXml(XmlWriter, Action, Action, String, GraphMode)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_Platform_Communication_Protocol_Gexf_GraphMode_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Communication.Protocol.Gexf.GraphMode)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String, Platform.Communication.Protocol.Gexf.GraphMode)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_Platform_Protocols_Gexf_GraphMode_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Protocols.Gexf.GraphMode)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String, Platform.Protocols.Gexf.GraphMode)
   nameWithType: Gexf.WriteXml(XmlWriter, Action, Action, String, GraphMode)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Communication.Protocol.Gexf.GraphMode,Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Protocols.Gexf.GraphMode,Platform.Protocols.Gexf.GraphDefaultEdgeType)
   name: WriteXml(XmlWriter, Action, Action, String, GraphMode, GraphDefaultEdgeType)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_Platform_Communication_Protocol_Gexf_GraphMode_Platform_Communication_Protocol_Gexf_GraphDefaultEdgeType_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Communication.Protocol.Gexf.GraphMode,Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String, Platform.Communication.Protocol.Gexf.GraphMode, Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_System_String_Platform_Protocols_Gexf_GraphMode_Platform_Protocols_Gexf_GraphDefaultEdgeType_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,System.String,Platform.Protocols.Gexf.GraphMode,Platform.Protocols.Gexf.GraphDefaultEdgeType)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, System.String, Platform.Protocols.Gexf.GraphMode, Platform.Protocols.Gexf.GraphDefaultEdgeType)
   nameWithType: Gexf.WriteXml(XmlWriter, Action, Action, String, GraphMode, GraphDefaultEdgeType)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.String)
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.String)
   name: WriteXml(XmlWriter, Action, String)
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_String_
-  commentId: M:Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.String)
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.String)
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_System_Xml_XmlWriter_System_Action_System_String_
+  commentId: M:Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter,System.Action,System.String)
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml(System.Xml.XmlWriter, System.Action, System.String)
   nameWithType: Gexf.WriteXml(XmlWriter, Action, String)
-- uid: Platform.Communication.Protocol.Gexf.Gexf.WriteXml*
+- uid: Platform.Protocols.Gexf.Gexf.WriteXml*
   name: WriteXml
-  href: api/Platform.Communication.Protocol.Gexf.Gexf.html#Platform_Communication_Protocol_Gexf_Gexf_WriteXml_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Gexf.WriteXml
+  href: api/Platform.Protocols.Gexf.Gexf.html#Platform_Protocols_Gexf_Gexf_WriteXml_
+  commentId: Overload:Platform.Protocols.Gexf.Gexf.WriteXml
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Gexf.WriteXml
+  fullName: Platform.Protocols.Gexf.Gexf.WriteXml
   nameWithType: Gexf.WriteXml
-- uid: Platform.Communication.Protocol.Gexf.Graph
+- uid: Platform.Protocols.Gexf.Graph
   name: Graph
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html
-  commentId: T:Platform.Communication.Protocol.Gexf.Graph
-  fullName: Platform.Communication.Protocol.Gexf.Graph
+  href: api/Platform.Protocols.Gexf.Graph.html
+  commentId: T:Platform.Protocols.Gexf.Graph
+  fullName: Platform.Protocols.Gexf.Graph
   nameWithType: Graph
-- uid: Platform.Communication.Protocol.Gexf.Graph.#ctor
+- uid: Platform.Protocols.Gexf.Graph.#ctor
   name: Graph()
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph__ctor
-  commentId: M:Platform.Communication.Protocol.Gexf.Graph.#ctor
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Graph()
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph__ctor
+  commentId: M:Platform.Protocols.Gexf.Graph.#ctor
+  fullName: Platform.Protocols.Gexf.Graph.Graph()
   nameWithType: Graph.Graph()
-- uid: Platform.Communication.Protocol.Gexf.Graph.#ctor*
+- uid: Platform.Protocols.Gexf.Graph.#ctor*
   name: Graph
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph__ctor_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.#ctor
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph__ctor_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.#ctor
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Graph
+  fullName: Platform.Protocols.Gexf.Graph.Graph
   nameWithType: Graph.Graph
-- uid: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType
+- uid: Platform.Protocols.Gexf.Graph.DefaultEdgeType
   name: DefaultEdgeType
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_DefaultEdgeType
-  commentId: P:Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType
-  fullName: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_DefaultEdgeType
+  commentId: P:Platform.Protocols.Gexf.Graph.DefaultEdgeType
+  fullName: Platform.Protocols.Gexf.Graph.DefaultEdgeType
   nameWithType: Graph.DefaultEdgeType
-- uid: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType*
+- uid: Platform.Protocols.Gexf.Graph.DefaultEdgeType*
   name: DefaultEdgeType
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_DefaultEdgeType_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_DefaultEdgeType_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.DefaultEdgeType
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeType
+  fullName: Platform.Protocols.Gexf.Graph.DefaultEdgeType
   nameWithType: Graph.DefaultEdgeType
-- uid: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeTypeAttributeName
+- uid: Platform.Protocols.Gexf.Graph.DefaultEdgeTypeAttributeName
   name: DefaultEdgeTypeAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_DefaultEdgeTypeAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeTypeAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.DefaultEdgeTypeAttributeName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_DefaultEdgeTypeAttributeName
+  commentId: F:Platform.Protocols.Gexf.Graph.DefaultEdgeTypeAttributeName
+  fullName: Platform.Protocols.Gexf.Graph.DefaultEdgeTypeAttributeName
   nameWithType: Graph.DefaultEdgeTypeAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Graph.EdgeElementName
+- uid: Platform.Protocols.Gexf.Graph.EdgeElementName
   name: EdgeElementName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_EdgeElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.EdgeElementName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.EdgeElementName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_EdgeElementName
+  commentId: F:Platform.Protocols.Gexf.Graph.EdgeElementName
+  fullName: Platform.Protocols.Gexf.Graph.EdgeElementName
   nameWithType: Graph.EdgeElementName
-- uid: Platform.Communication.Protocol.Gexf.Graph.Edges
+- uid: Platform.Protocols.Gexf.Graph.Edges
   name: Edges
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Edges
-  commentId: P:Platform.Communication.Protocol.Gexf.Graph.Edges
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Edges
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Edges
+  commentId: P:Platform.Protocols.Gexf.Graph.Edges
+  fullName: Platform.Protocols.Gexf.Graph.Edges
   nameWithType: Graph.Edges
-- uid: Platform.Communication.Protocol.Gexf.Graph.Edges*
+- uid: Platform.Protocols.Gexf.Graph.Edges*
   name: Edges
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Edges_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.Edges
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Edges_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.Edges
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Edges
+  fullName: Platform.Protocols.Gexf.Graph.Edges
   nameWithType: Graph.Edges
-- uid: Platform.Communication.Protocol.Gexf.Graph.EdgesElementName
+- uid: Platform.Protocols.Gexf.Graph.EdgesElementName
   name: EdgesElementName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_EdgesElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.EdgesElementName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.EdgesElementName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_EdgesElementName
+  commentId: F:Platform.Protocols.Gexf.Graph.EdgesElementName
+  fullName: Platform.Protocols.Gexf.Graph.EdgesElementName
   nameWithType: Graph.EdgesElementName
-- uid: Platform.Communication.Protocol.Gexf.Graph.ElementName
+- uid: Platform.Protocols.Gexf.Graph.ElementName
   name: ElementName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_ElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.ElementName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.ElementName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_ElementName
+  commentId: F:Platform.Protocols.Gexf.Graph.ElementName
+  fullName: Platform.Protocols.Gexf.Graph.ElementName
   nameWithType: Graph.ElementName
-- uid: Platform.Communication.Protocol.Gexf.Graph.Mode
+- uid: Platform.Protocols.Gexf.Graph.Mode
   name: Mode
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Mode
-  commentId: P:Platform.Communication.Protocol.Gexf.Graph.Mode
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Mode
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Mode
+  commentId: P:Platform.Protocols.Gexf.Graph.Mode
+  fullName: Platform.Protocols.Gexf.Graph.Mode
   nameWithType: Graph.Mode
-- uid: Platform.Communication.Protocol.Gexf.Graph.Mode*
+- uid: Platform.Protocols.Gexf.Graph.Mode*
   name: Mode
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Mode_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.Mode
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Mode_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.Mode
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Mode
+  fullName: Platform.Protocols.Gexf.Graph.Mode
   nameWithType: Graph.Mode
-- uid: Platform.Communication.Protocol.Gexf.Graph.ModeAttributeName
+- uid: Platform.Protocols.Gexf.Graph.ModeAttributeName
   name: ModeAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_ModeAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.ModeAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.ModeAttributeName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_ModeAttributeName
+  commentId: F:Platform.Protocols.Gexf.Graph.ModeAttributeName
+  fullName: Platform.Protocols.Gexf.Graph.ModeAttributeName
   nameWithType: Graph.ModeAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Graph.NodeElementName
+- uid: Platform.Protocols.Gexf.Graph.NodeElementName
   name: NodeElementName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_NodeElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.NodeElementName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.NodeElementName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_NodeElementName
+  commentId: F:Platform.Protocols.Gexf.Graph.NodeElementName
+  fullName: Platform.Protocols.Gexf.Graph.NodeElementName
   nameWithType: Graph.NodeElementName
-- uid: Platform.Communication.Protocol.Gexf.Graph.Nodes
+- uid: Platform.Protocols.Gexf.Graph.Nodes
   name: Nodes
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Nodes
-  commentId: P:Platform.Communication.Protocol.Gexf.Graph.Nodes
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Nodes
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Nodes
+  commentId: P:Platform.Protocols.Gexf.Graph.Nodes
+  fullName: Platform.Protocols.Gexf.Graph.Nodes
   nameWithType: Graph.Nodes
-- uid: Platform.Communication.Protocol.Gexf.Graph.Nodes*
+- uid: Platform.Protocols.Gexf.Graph.Nodes*
   name: Nodes
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_Nodes_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.Nodes
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_Nodes_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.Nodes
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.Nodes
+  fullName: Platform.Protocols.Gexf.Graph.Nodes
   nameWithType: Graph.Nodes
-- uid: Platform.Communication.Protocol.Gexf.Graph.NodesElementName
+- uid: Platform.Protocols.Gexf.Graph.NodesElementName
   name: NodesElementName
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_NodesElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Graph.NodesElementName
-  fullName: Platform.Communication.Protocol.Gexf.Graph.NodesElementName
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_NodesElementName
+  commentId: F:Platform.Protocols.Gexf.Graph.NodesElementName
+  fullName: Platform.Protocols.Gexf.Graph.NodesElementName
   nameWithType: Graph.NodesElementName
-- uid: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
+- uid: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_WriteXml_System_Xml_XmlWriter_
-  commentId: M:Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
-  fullName: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_WriteXml_System_Xml_XmlWriter_
+  commentId: M:Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
+  fullName: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter)
   nameWithType: Graph.WriteXml(XmlWriter)
-- uid: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
+- uid: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
   name: WriteXml(XmlWriter, Action, Action)
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_
-  commentId: M:Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
-  fullName: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action)
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_
+  commentId: M:Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action)
+  fullName: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action)
   nameWithType: Graph.WriteXml(XmlWriter, Action, Action)
-- uid: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Communication.Protocol.Gexf.GraphMode)
+- uid: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Protocols.Gexf.GraphMode)
   name: WriteXml(XmlWriter, Action, Action, GraphMode)
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_Platform_Communication_Protocol_Gexf_GraphMode_
-  commentId: M:Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Communication.Protocol.Gexf.GraphMode)
-  fullName: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, Platform.Communication.Protocol.Gexf.GraphMode)
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_Platform_Protocols_Gexf_GraphMode_
+  commentId: M:Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Protocols.Gexf.GraphMode)
+  fullName: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, Platform.Protocols.Gexf.GraphMode)
   nameWithType: Graph.WriteXml(XmlWriter, Action, Action, GraphMode)
-- uid: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Communication.Protocol.Gexf.GraphMode,Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
+- uid: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Protocols.Gexf.GraphMode,Platform.Protocols.Gexf.GraphDefaultEdgeType)
   name: WriteXml(XmlWriter, Action, Action, GraphMode, GraphDefaultEdgeType)
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_Platform_Communication_Protocol_Gexf_GraphMode_Platform_Communication_Protocol_Gexf_GraphDefaultEdgeType_
-  commentId: M:Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Communication.Protocol.Gexf.GraphMode,Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
-  fullName: Platform.Communication.Protocol.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, Platform.Communication.Protocol.Gexf.GraphMode, Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType)
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_WriteXml_System_Xml_XmlWriter_System_Action_System_Action_Platform_Protocols_Gexf_GraphMode_Platform_Protocols_Gexf_GraphDefaultEdgeType_
+  commentId: M:Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter,System.Action,System.Action,Platform.Protocols.Gexf.GraphMode,Platform.Protocols.Gexf.GraphDefaultEdgeType)
+  fullName: Platform.Protocols.Gexf.Graph.WriteXml(System.Xml.XmlWriter, System.Action, System.Action, Platform.Protocols.Gexf.GraphMode, Platform.Protocols.Gexf.GraphDefaultEdgeType)
   nameWithType: Graph.WriteXml(XmlWriter, Action, Action, GraphMode, GraphDefaultEdgeType)
-- uid: Platform.Communication.Protocol.Gexf.Graph.WriteXml*
+- uid: Platform.Protocols.Gexf.Graph.WriteXml*
   name: WriteXml
-  href: api/Platform.Communication.Protocol.Gexf.Graph.html#Platform_Communication_Protocol_Gexf_Graph_WriteXml_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Graph.WriteXml
+  href: api/Platform.Protocols.Gexf.Graph.html#Platform_Protocols_Gexf_Graph_WriteXml_
+  commentId: Overload:Platform.Protocols.Gexf.Graph.WriteXml
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Graph.WriteXml
+  fullName: Platform.Protocols.Gexf.Graph.WriteXml
   nameWithType: Graph.WriteXml
-- uid: Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType
+- uid: Platform.Protocols.Gexf.GraphDefaultEdgeType
   name: GraphDefaultEdgeType
-  href: api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html
-  commentId: T:Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType
-  fullName: Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType
+  href: api/Platform.Protocols.Gexf.GraphDefaultEdgeType.html
+  commentId: T:Platform.Protocols.Gexf.GraphDefaultEdgeType
+  fullName: Platform.Protocols.Gexf.GraphDefaultEdgeType
   nameWithType: GraphDefaultEdgeType
-- uid: Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.Directed
+- uid: Platform.Protocols.Gexf.GraphDefaultEdgeType.Directed
   name: Directed
-  href: api/Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.html#Platform_Communication_Protocol_Gexf_GraphDefaultEdgeType_Directed
-  commentId: F:Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.Directed
-  fullName: Platform.Communication.Protocol.Gexf.GraphDefaultEdgeType.Directed
+  href: api/Platform.Protocols.Gexf.GraphDefaultEdgeType.html#Platform_Protocols_Gexf_GraphDefaultEdgeType_Directed
+  commentId: F:Platform.Protocols.Gexf.GraphDefaultEdgeType.Directed
+  fullName: Platform.Protocols.Gexf.GraphDefaultEdgeType.Directed
   nameWithType: GraphDefaultEdgeType.Directed
-- uid: Platform.Communication.Protocol.Gexf.GraphMode
+- uid: Platform.Protocols.Gexf.GraphMode
   name: GraphMode
-  href: api/Platform.Communication.Protocol.Gexf.GraphMode.html
-  commentId: T:Platform.Communication.Protocol.Gexf.GraphMode
-  fullName: Platform.Communication.Protocol.Gexf.GraphMode
+  href: api/Platform.Protocols.Gexf.GraphMode.html
+  commentId: T:Platform.Protocols.Gexf.GraphMode
+  fullName: Platform.Protocols.Gexf.GraphMode
   nameWithType: GraphMode
-- uid: Platform.Communication.Protocol.Gexf.GraphMode.Dynamic
+- uid: Platform.Protocols.Gexf.GraphMode.Dynamic
   name: Dynamic
-  href: api/Platform.Communication.Protocol.Gexf.GraphMode.html#Platform_Communication_Protocol_Gexf_GraphMode_Dynamic
-  commentId: F:Platform.Communication.Protocol.Gexf.GraphMode.Dynamic
-  fullName: Platform.Communication.Protocol.Gexf.GraphMode.Dynamic
+  href: api/Platform.Protocols.Gexf.GraphMode.html#Platform_Protocols_Gexf_GraphMode_Dynamic
+  commentId: F:Platform.Protocols.Gexf.GraphMode.Dynamic
+  fullName: Platform.Protocols.Gexf.GraphMode.Dynamic
   nameWithType: GraphMode.Dynamic
-- uid: Platform.Communication.Protocol.Gexf.GraphMode.Static
+- uid: Platform.Protocols.Gexf.GraphMode.Static
   name: Static
-  href: api/Platform.Communication.Protocol.Gexf.GraphMode.html#Platform_Communication_Protocol_Gexf_GraphMode_Static
-  commentId: F:Platform.Communication.Protocol.Gexf.GraphMode.Static
-  fullName: Platform.Communication.Protocol.Gexf.GraphMode.Static
+  href: api/Platform.Protocols.Gexf.GraphMode.html#Platform_Protocols_Gexf_GraphMode_Static
+  commentId: F:Platform.Protocols.Gexf.GraphMode.Static
+  fullName: Platform.Protocols.Gexf.GraphMode.Static
   nameWithType: GraphMode.Static
-- uid: Platform.Communication.Protocol.Gexf.Node
+- uid: Platform.Protocols.Gexf.Node
   name: Node
-  href: api/Platform.Communication.Protocol.Gexf.Node.html
-  commentId: T:Platform.Communication.Protocol.Gexf.Node
-  fullName: Platform.Communication.Protocol.Gexf.Node
+  href: api/Platform.Protocols.Gexf.Node.html
+  commentId: T:Platform.Protocols.Gexf.Node
+  fullName: Platform.Protocols.Gexf.Node
   nameWithType: Node
-- uid: Platform.Communication.Protocol.Gexf.Node.ElementName
+- uid: Platform.Protocols.Gexf.Node.ElementName
   name: ElementName
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_ElementName
-  commentId: F:Platform.Communication.Protocol.Gexf.Node.ElementName
-  fullName: Platform.Communication.Protocol.Gexf.Node.ElementName
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_ElementName
+  commentId: F:Platform.Protocols.Gexf.Node.ElementName
+  fullName: Platform.Protocols.Gexf.Node.ElementName
   nameWithType: Node.ElementName
-- uid: Platform.Communication.Protocol.Gexf.Node.Id
+- uid: Platform.Protocols.Gexf.Node.Id
   name: Id
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_Id
-  commentId: P:Platform.Communication.Protocol.Gexf.Node.Id
-  fullName: Platform.Communication.Protocol.Gexf.Node.Id
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_Id
+  commentId: P:Platform.Protocols.Gexf.Node.Id
+  fullName: Platform.Protocols.Gexf.Node.Id
   nameWithType: Node.Id
-- uid: Platform.Communication.Protocol.Gexf.Node.Id*
+- uid: Platform.Protocols.Gexf.Node.Id*
   name: Id
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_Id_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Node.Id
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_Id_
+  commentId: Overload:Platform.Protocols.Gexf.Node.Id
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Node.Id
+  fullName: Platform.Protocols.Gexf.Node.Id
   nameWithType: Node.Id
-- uid: Platform.Communication.Protocol.Gexf.Node.IdAttributeName
+- uid: Platform.Protocols.Gexf.Node.IdAttributeName
   name: IdAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_IdAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Node.IdAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Node.IdAttributeName
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_IdAttributeName
+  commentId: F:Platform.Protocols.Gexf.Node.IdAttributeName
+  fullName: Platform.Protocols.Gexf.Node.IdAttributeName
   nameWithType: Node.IdAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Node.Label
+- uid: Platform.Protocols.Gexf.Node.Label
   name: Label
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_Label
-  commentId: P:Platform.Communication.Protocol.Gexf.Node.Label
-  fullName: Platform.Communication.Protocol.Gexf.Node.Label
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_Label
+  commentId: P:Platform.Protocols.Gexf.Node.Label
+  fullName: Platform.Protocols.Gexf.Node.Label
   nameWithType: Node.Label
-- uid: Platform.Communication.Protocol.Gexf.Node.Label*
+- uid: Platform.Protocols.Gexf.Node.Label*
   name: Label
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_Label_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Node.Label
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_Label_
+  commentId: Overload:Platform.Protocols.Gexf.Node.Label
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Node.Label
+  fullName: Platform.Protocols.Gexf.Node.Label
   nameWithType: Node.Label
-- uid: Platform.Communication.Protocol.Gexf.Node.LabelAttributeName
+- uid: Platform.Protocols.Gexf.Node.LabelAttributeName
   name: LabelAttributeName
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_LabelAttributeName
-  commentId: F:Platform.Communication.Protocol.Gexf.Node.LabelAttributeName
-  fullName: Platform.Communication.Protocol.Gexf.Node.LabelAttributeName
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_LabelAttributeName
+  commentId: F:Platform.Protocols.Gexf.Node.LabelAttributeName
+  fullName: Platform.Protocols.Gexf.Node.LabelAttributeName
   nameWithType: Node.LabelAttributeName
-- uid: Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter)
+- uid: Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter)
   name: WriteXml(XmlWriter)
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_WriteXml_System_Xml_XmlWriter_
-  commentId: M:Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter)
-  fullName: Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter)
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_WriteXml_System_Xml_XmlWriter_
+  commentId: M:Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter)
+  fullName: Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter)
   nameWithType: Node.WriteXml(XmlWriter)
-- uid: Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter,System.Int64,System.String)
+- uid: Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter,System.Int64,System.String)
   name: WriteXml(XmlWriter, Int64, String)
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_WriteXml_System_Xml_XmlWriter_System_Int64_System_String_
-  commentId: M:Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter,System.Int64,System.String)
-  fullName: Platform.Communication.Protocol.Gexf.Node.WriteXml(System.Xml.XmlWriter, System.Int64, System.String)
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_WriteXml_System_Xml_XmlWriter_System_Int64_System_String_
+  commentId: M:Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter,System.Int64,System.String)
+  fullName: Platform.Protocols.Gexf.Node.WriteXml(System.Xml.XmlWriter, System.Int64, System.String)
   nameWithType: Node.WriteXml(XmlWriter, Int64, String)
-- uid: Platform.Communication.Protocol.Gexf.Node.WriteXml*
+- uid: Platform.Protocols.Gexf.Node.WriteXml*
   name: WriteXml
-  href: api/Platform.Communication.Protocol.Gexf.Node.html#Platform_Communication_Protocol_Gexf_Node_WriteXml_
-  commentId: Overload:Platform.Communication.Protocol.Gexf.Node.WriteXml
+  href: api/Platform.Protocols.Gexf.Node.html#Platform_Protocols_Gexf_Node_WriteXml_
+  commentId: Overload:Platform.Protocols.Gexf.Node.WriteXml
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Gexf.Node.WriteXml
+  fullName: Platform.Protocols.Gexf.Node.WriteXml
   nameWithType: Node.WriteXml
-- uid: Platform.Communication.Protocol.Udp
-  name: Platform.Communication.Protocol.Udp
-  href: api/Platform.Communication.Protocol.Udp.html
-  commentId: N:Platform.Communication.Protocol.Udp
-  fullName: Platform.Communication.Protocol.Udp
-  nameWithType: Platform.Communication.Protocol.Udp
-- uid: Platform.Communication.Protocol.Udp.MessageHandlerCallback
+- uid: Platform.Protocols.Udp
+  name: Platform.Protocols.Udp
+  href: api/Platform.Protocols.Udp.html
+  commentId: N:Platform.Protocols.Udp
+  fullName: Platform.Protocols.Udp
+  nameWithType: Platform.Protocols.Udp
+- uid: Platform.Protocols.Udp.MessageHandlerCallback
   name: MessageHandlerCallback
-  href: api/Platform.Communication.Protocol.Udp.MessageHandlerCallback.html
-  commentId: T:Platform.Communication.Protocol.Udp.MessageHandlerCallback
-  fullName: Platform.Communication.Protocol.Udp.MessageHandlerCallback
+  href: api/Platform.Protocols.Udp.MessageHandlerCallback.html
+  commentId: T:Platform.Protocols.Udp.MessageHandlerCallback
+  fullName: Platform.Protocols.Udp.MessageHandlerCallback
   nameWithType: MessageHandlerCallback
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions
+- uid: Platform.Protocols.Udp.UdpClientExtensions
   name: UdpClientExtensions
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html
-  commentId: T:Platform.Communication.Protocol.Udp.UdpClientExtensions
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html
+  commentId: T:Platform.Protocols.Udp.UdpClientExtensions
+  fullName: Platform.Protocols.Udp.UdpClientExtensions
   nameWithType: UdpClientExtensions
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
+- uid: Platform.Protocols.Udp.UdpClientExtensions.DefaultEncoding
   name: DefaultEncoding
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_DefaultEncoding
-  commentId: F:Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.DefaultEncoding
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html#Platform_Protocols_Udp_UdpClientExtensions_DefaultEncoding
+  commentId: F:Platform.Protocols.Udp.UdpClientExtensions.DefaultEncoding
+  fullName: Platform.Protocols.Udp.UdpClientExtensions.DefaultEncoding
   nameWithType: UdpClientExtensions.DefaultEncoding
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
+- uid: Platform.Protocols.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
   name: ReceiveString(UdpClient)
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_ReceiveString_System_Net_Sockets_UdpClient_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html#Platform_Protocols_Udp_UdpClientExtensions_ReceiveString_System_Net_Sockets_UdpClient_
+  commentId: M:Platform.Protocols.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
+  fullName: Platform.Protocols.Udp.UdpClientExtensions.ReceiveString(System.Net.Sockets.UdpClient)
   nameWithType: UdpClientExtensions.ReceiveString(UdpClient)
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString*
+- uid: Platform.Protocols.Udp.UdpClientExtensions.ReceiveString*
   name: ReceiveString
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_ReceiveString_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html#Platform_Protocols_Udp_UdpClientExtensions_ReceiveString_
+  commentId: Overload:Platform.Protocols.Udp.UdpClientExtensions.ReceiveString
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.ReceiveString
+  fullName: Platform.Protocols.Udp.UdpClientExtensions.ReceiveString
   nameWithType: UdpClientExtensions.ReceiveString
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient,System.Net.IPEndPoint,System.String)
+- uid: Platform.Protocols.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient,System.Net.IPEndPoint,System.String)
   name: SendString(UdpClient, IPEndPoint, String)
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_SendString_System_Net_Sockets_UdpClient_System_Net_IPEndPoint_System_String_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient,System.Net.IPEndPoint,System.String)
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient, System.Net.IPEndPoint, System.String)
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html#Platform_Protocols_Udp_UdpClientExtensions_SendString_System_Net_Sockets_UdpClient_System_Net_IPEndPoint_System_String_
+  commentId: M:Platform.Protocols.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient,System.Net.IPEndPoint,System.String)
+  fullName: Platform.Protocols.Udp.UdpClientExtensions.SendString(System.Net.Sockets.UdpClient, System.Net.IPEndPoint, System.String)
   nameWithType: UdpClientExtensions.SendString(UdpClient, IPEndPoint, String)
-- uid: Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString*
+- uid: Platform.Protocols.Udp.UdpClientExtensions.SendString*
   name: SendString
-  href: api/Platform.Communication.Protocol.Udp.UdpClientExtensions.html#Platform_Communication_Protocol_Udp_UdpClientExtensions_SendString_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString
+  href: api/Platform.Protocols.Udp.UdpClientExtensions.html#Platform_Protocols_Udp_UdpClientExtensions_SendString_
+  commentId: Overload:Platform.Protocols.Udp.UdpClientExtensions.SendString
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpClientExtensions.SendString
+  fullName: Platform.Protocols.Udp.UdpClientExtensions.SendString
   nameWithType: UdpClientExtensions.SendString
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver
+- uid: Platform.Protocols.Udp.UdpReceiver
   name: UdpReceiver
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html
-  commentId: T:Platform.Communication.Protocol.Udp.UdpReceiver
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver
+  href: api/Platform.Protocols.Udp.UdpReceiver.html
+  commentId: T:Platform.Protocols.Udp.UdpReceiver
+  fullName: Platform.Protocols.Udp.UdpReceiver
   nameWithType: UdpReceiver
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.#ctor
+- uid: Platform.Protocols.Udp.UdpReceiver.#ctor
   name: UdpReceiver()
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver__ctor
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.#ctor
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.UdpReceiver()
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver__ctor
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.#ctor
+  fullName: Platform.Protocols.Udp.UdpReceiver.UdpReceiver()
   nameWithType: UdpReceiver.UdpReceiver()
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+- uid: Platform.Protocols.Udp.UdpReceiver.#ctor(Platform.Protocols.Udp.MessageHandlerCallback)
   name: UdpReceiver(MessageHandlerCallback)
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver__ctor_Platform_Communication_Protocol_Udp_MessageHandlerCallback_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(Platform.Communication.Protocol.Udp.MessageHandlerCallback)
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.UdpReceiver(Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver__ctor_Platform_Protocols_Udp_MessageHandlerCallback_
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.#ctor(Platform.Protocols.Udp.MessageHandlerCallback)
+  fullName: Platform.Protocols.Udp.UdpReceiver.UdpReceiver(Platform.Protocols.Udp.MessageHandlerCallback)
   nameWithType: UdpReceiver.UdpReceiver(MessageHandlerCallback)
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(System.Int32,Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+- uid: Platform.Protocols.Udp.UdpReceiver.#ctor(System.Int32,Platform.Protocols.Udp.MessageHandlerCallback)
   name: UdpReceiver(Int32, MessageHandlerCallback)
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver__ctor_System_Int32_Platform_Communication_Protocol_Udp_MessageHandlerCallback_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(System.Int32,Platform.Communication.Protocol.Udp.MessageHandlerCallback)
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.UdpReceiver(System.Int32, Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver__ctor_System_Int32_Platform_Protocols_Udp_MessageHandlerCallback_
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.#ctor(System.Int32,Platform.Protocols.Udp.MessageHandlerCallback)
+  fullName: Platform.Protocols.Udp.UdpReceiver.UdpReceiver(System.Int32, Platform.Protocols.Udp.MessageHandlerCallback)
   nameWithType: UdpReceiver.UdpReceiver(Int32, MessageHandlerCallback)
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(System.Int32,System.Boolean,Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+- uid: Platform.Protocols.Udp.UdpReceiver.#ctor(System.Int32,System.Boolean,Platform.Protocols.Udp.MessageHandlerCallback)
   name: UdpReceiver(Int32, Boolean, MessageHandlerCallback)
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver__ctor_System_Int32_System_Boolean_Platform_Communication_Protocol_Udp_MessageHandlerCallback_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.#ctor(System.Int32,System.Boolean,Platform.Communication.Protocol.Udp.MessageHandlerCallback)
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.UdpReceiver(System.Int32, System.Boolean, Platform.Communication.Protocol.Udp.MessageHandlerCallback)
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver__ctor_System_Int32_System_Boolean_Platform_Protocols_Udp_MessageHandlerCallback_
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.#ctor(System.Int32,System.Boolean,Platform.Protocols.Udp.MessageHandlerCallback)
+  fullName: Platform.Protocols.Udp.UdpReceiver.UdpReceiver(System.Int32, System.Boolean, Platform.Protocols.Udp.MessageHandlerCallback)
   nameWithType: UdpReceiver.UdpReceiver(Int32, Boolean, MessageHandlerCallback)
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.#ctor*
+- uid: Platform.Protocols.Udp.UdpReceiver.#ctor*
   name: UdpReceiver
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver__ctor_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.#ctor
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver__ctor_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.#ctor
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.UdpReceiver
+  fullName: Platform.Protocols.Udp.UdpReceiver.UdpReceiver
   nameWithType: UdpReceiver.UdpReceiver
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Available
+- uid: Platform.Protocols.Udp.UdpReceiver.Available
   name: Available
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Available
-  commentId: P:Platform.Communication.Protocol.Udp.UdpReceiver.Available
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Available
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Available
+  commentId: P:Platform.Protocols.Udp.UdpReceiver.Available
+  fullName: Platform.Protocols.Udp.UdpReceiver.Available
   nameWithType: UdpReceiver.Available
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Available*
+- uid: Platform.Protocols.Udp.UdpReceiver.Available*
   name: Available
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Available_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.Available
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Available_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.Available
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Available
+  fullName: Platform.Protocols.Udp.UdpReceiver.Available
   nameWithType: UdpReceiver.Available
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Dispose(System.Boolean,System.Boolean)
+- uid: Platform.Protocols.Udp.UdpReceiver.Dispose(System.Boolean,System.Boolean)
   name: Dispose(Boolean, Boolean)
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Dispose_System_Boolean_System_Boolean_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.Dispose(System.Boolean,System.Boolean)
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Dispose(System.Boolean, System.Boolean)
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Dispose_System_Boolean_System_Boolean_
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.Dispose(System.Boolean,System.Boolean)
+  fullName: Platform.Protocols.Udp.UdpReceiver.Dispose(System.Boolean, System.Boolean)
   nameWithType: UdpReceiver.Dispose(Boolean, Boolean)
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Dispose*
+- uid: Platform.Protocols.Udp.UdpReceiver.Dispose*
   name: Dispose
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Dispose_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.Dispose
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Dispose_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.Dispose
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Dispose
+  fullName: Platform.Protocols.Udp.UdpReceiver.Dispose
   nameWithType: UdpReceiver.Dispose
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Receive
+- uid: Platform.Protocols.Udp.UdpReceiver.Receive
   name: Receive()
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Receive
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.Receive
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Receive()
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Receive
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.Receive
+  fullName: Platform.Protocols.Udp.UdpReceiver.Receive()
   nameWithType: UdpReceiver.Receive()
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Receive*
+- uid: Platform.Protocols.Udp.UdpReceiver.Receive*
   name: Receive
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Receive_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.Receive
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Receive_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.Receive
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Receive
+  fullName: Platform.Protocols.Udp.UdpReceiver.Receive
   nameWithType: UdpReceiver.Receive
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle
+- uid: Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle
   name: ReceiveAndHandle()
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_ReceiveAndHandle
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle()
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_ReceiveAndHandle
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle
+  fullName: Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle()
   nameWithType: UdpReceiver.ReceiveAndHandle()
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle*
+- uid: Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle*
   name: ReceiveAndHandle
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_ReceiveAndHandle_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_ReceiveAndHandle_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.ReceiveAndHandle
+  fullName: Platform.Protocols.Udp.UdpReceiver.ReceiveAndHandle
   nameWithType: UdpReceiver.ReceiveAndHandle
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Start
+- uid: Platform.Protocols.Udp.UdpReceiver.Start
   name: Start()
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Start
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.Start
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Start()
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Start
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.Start
+  fullName: Platform.Protocols.Udp.UdpReceiver.Start()
   nameWithType: UdpReceiver.Start()
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Start*
+- uid: Platform.Protocols.Udp.UdpReceiver.Start*
   name: Start
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Start_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.Start
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Start_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.Start
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Start
+  fullName: Platform.Protocols.Udp.UdpReceiver.Start
   nameWithType: UdpReceiver.Start
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Stop
+- uid: Platform.Protocols.Udp.UdpReceiver.Stop
   name: Stop()
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Stop
-  commentId: M:Platform.Communication.Protocol.Udp.UdpReceiver.Stop
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Stop()
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Stop
+  commentId: M:Platform.Protocols.Udp.UdpReceiver.Stop
+  fullName: Platform.Protocols.Udp.UdpReceiver.Stop()
   nameWithType: UdpReceiver.Stop()
-- uid: Platform.Communication.Protocol.Udp.UdpReceiver.Stop*
+- uid: Platform.Protocols.Udp.UdpReceiver.Stop*
   name: Stop
-  href: api/Platform.Communication.Protocol.Udp.UdpReceiver.html#Platform_Communication_Protocol_Udp_UdpReceiver_Stop_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpReceiver.Stop
+  href: api/Platform.Protocols.Udp.UdpReceiver.html#Platform_Protocols_Udp_UdpReceiver_Stop_
+  commentId: Overload:Platform.Protocols.Udp.UdpReceiver.Stop
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpReceiver.Stop
+  fullName: Platform.Protocols.Udp.UdpReceiver.Stop
   nameWithType: UdpReceiver.Stop
-- uid: Platform.Communication.Protocol.Udp.UdpSender
+- uid: Platform.Protocols.Udp.UdpSender
   name: UdpSender
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html
-  commentId: T:Platform.Communication.Protocol.Udp.UdpSender
-  fullName: Platform.Communication.Protocol.Udp.UdpSender
+  href: api/Platform.Protocols.Udp.UdpSender.html
+  commentId: T:Platform.Protocols.Udp.UdpSender
+  fullName: Platform.Protocols.Udp.UdpSender
   nameWithType: UdpSender
-- uid: Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Int32)
+- uid: Platform.Protocols.Udp.UdpSender.#ctor(System.Int32)
   name: UdpSender(Int32)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender__ctor_System_Int32_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Int32)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.UdpSender(System.Int32)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender__ctor_System_Int32_
+  commentId: M:Platform.Protocols.Udp.UdpSender.#ctor(System.Int32)
+  fullName: Platform.Protocols.Udp.UdpSender.UdpSender(System.Int32)
   nameWithType: UdpSender.UdpSender(Int32)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Net.IPAddress,System.Int32)
+- uid: Platform.Protocols.Udp.UdpSender.#ctor(System.Net.IPAddress,System.Int32)
   name: UdpSender(IPAddress, Int32)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender__ctor_System_Net_IPAddress_System_Int32_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Net.IPAddress,System.Int32)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.UdpSender(System.Net.IPAddress, System.Int32)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender__ctor_System_Net_IPAddress_System_Int32_
+  commentId: M:Platform.Protocols.Udp.UdpSender.#ctor(System.Net.IPAddress,System.Int32)
+  fullName: Platform.Protocols.Udp.UdpSender.UdpSender(System.Net.IPAddress, System.Int32)
   nameWithType: UdpSender.UdpSender(IPAddress, Int32)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Net.IPEndPoint)
+- uid: Platform.Protocols.Udp.UdpSender.#ctor(System.Net.IPEndPoint)
   name: UdpSender(IPEndPoint)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender__ctor_System_Net_IPEndPoint_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.Net.IPEndPoint)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.UdpSender(System.Net.IPEndPoint)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender__ctor_System_Net_IPEndPoint_
+  commentId: M:Platform.Protocols.Udp.UdpSender.#ctor(System.Net.IPEndPoint)
+  fullName: Platform.Protocols.Udp.UdpSender.UdpSender(System.Net.IPEndPoint)
   nameWithType: UdpSender.UdpSender(IPEndPoint)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.String,System.Int32)
+- uid: Platform.Protocols.Udp.UdpSender.#ctor(System.String,System.Int32)
   name: UdpSender(String, Int32)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender__ctor_System_String_System_Int32_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.#ctor(System.String,System.Int32)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.UdpSender(System.String, System.Int32)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender__ctor_System_String_System_Int32_
+  commentId: M:Platform.Protocols.Udp.UdpSender.#ctor(System.String,System.Int32)
+  fullName: Platform.Protocols.Udp.UdpSender.UdpSender(System.String, System.Int32)
   nameWithType: UdpSender.UdpSender(String, Int32)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.#ctor*
+- uid: Platform.Protocols.Udp.UdpSender.#ctor*
   name: UdpSender
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender__ctor_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpSender.#ctor
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender__ctor_
+  commentId: Overload:Platform.Protocols.Udp.UdpSender.#ctor
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.UdpSender
+  fullName: Platform.Protocols.Udp.UdpSender.UdpSender
   nameWithType: UdpSender.UdpSender
-- uid: Platform.Communication.Protocol.Udp.UdpSender.Dispose(System.Boolean,System.Boolean)
+- uid: Platform.Protocols.Udp.UdpSender.Dispose(System.Boolean,System.Boolean)
   name: Dispose(Boolean, Boolean)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender_Dispose_System_Boolean_System_Boolean_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.Dispose(System.Boolean,System.Boolean)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.Dispose(System.Boolean, System.Boolean)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender_Dispose_System_Boolean_System_Boolean_
+  commentId: M:Platform.Protocols.Udp.UdpSender.Dispose(System.Boolean,System.Boolean)
+  fullName: Platform.Protocols.Udp.UdpSender.Dispose(System.Boolean, System.Boolean)
   nameWithType: UdpSender.Dispose(Boolean, Boolean)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.Dispose*
+- uid: Platform.Protocols.Udp.UdpSender.Dispose*
   name: Dispose
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender_Dispose_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpSender.Dispose
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender_Dispose_
+  commentId: Overload:Platform.Protocols.Udp.UdpSender.Dispose
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.Dispose
+  fullName: Platform.Protocols.Udp.UdpSender.Dispose
   nameWithType: UdpSender.Dispose
-- uid: Platform.Communication.Protocol.Udp.UdpSender.Send(System.String)
+- uid: Platform.Protocols.Udp.UdpSender.Send(System.String)
   name: Send(String)
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender_Send_System_String_
-  commentId: M:Platform.Communication.Protocol.Udp.UdpSender.Send(System.String)
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.Send(System.String)
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender_Send_System_String_
+  commentId: M:Platform.Protocols.Udp.UdpSender.Send(System.String)
+  fullName: Platform.Protocols.Udp.UdpSender.Send(System.String)
   nameWithType: UdpSender.Send(String)
-- uid: Platform.Communication.Protocol.Udp.UdpSender.Send*
+- uid: Platform.Protocols.Udp.UdpSender.Send*
   name: Send
-  href: api/Platform.Communication.Protocol.Udp.UdpSender.html#Platform_Communication_Protocol_Udp_UdpSender_Send_
-  commentId: Overload:Platform.Communication.Protocol.Udp.UdpSender.Send
+  href: api/Platform.Protocols.Udp.UdpSender.html#Platform_Protocols_Udp_UdpSender_Send_
+  commentId: Overload:Platform.Protocols.Udp.UdpSender.Send
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Udp.UdpSender.Send
+  fullName: Platform.Protocols.Udp.UdpSender.Send
   nameWithType: UdpSender.Send
-- uid: Platform.Communication.Protocol.Xml
-  name: Platform.Communication.Protocol.Xml
-  href: api/Platform.Communication.Protocol.Xml.html
-  commentId: N:Platform.Communication.Protocol.Xml
-  fullName: Platform.Communication.Protocol.Xml
-  nameWithType: Platform.Communication.Protocol.Xml
-- uid: Platform.Communication.Protocol.Xml.Serializer`1
+- uid: Platform.Protocols.Xml
+  name: Platform.Protocols.Xml
+  href: api/Platform.Protocols.Xml.html
+  commentId: N:Platform.Protocols.Xml
+  fullName: Platform.Protocols.Xml
+  nameWithType: Platform.Protocols.Xml
+- uid: Platform.Protocols.Xml.Serializer`1
   name: Serializer<T>
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html
-  commentId: T:Platform.Communication.Protocol.Xml.Serializer`1
+  href: api/Platform.Protocols.Xml.Serializer-1.html
+  commentId: T:Platform.Protocols.Xml.Serializer`1
   name.vb: Serializer(Of T)
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T)
+  fullName: Platform.Protocols.Xml.Serializer<T>
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T)
   nameWithType: Serializer<T>
   nameWithType.vb: Serializer(Of T)
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.FromFile(System.String)
+- uid: Platform.Protocols.Xml.Serializer`1.FromFile(System.String)
   name: FromFile(String)
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_FromFile_System_String_
-  commentId: M:Platform.Communication.Protocol.Xml.Serializer`1.FromFile(System.String)
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.FromFile(System.String)
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).FromFile(System.String)
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_FromFile_System_String_
+  commentId: M:Platform.Protocols.Xml.Serializer`1.FromFile(System.String)
+  fullName: Platform.Protocols.Xml.Serializer<T>.FromFile(System.String)
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).FromFile(System.String)
   nameWithType: Serializer<T>.FromFile(String)
   nameWithType.vb: Serializer(Of T).FromFile(String)
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.FromFile*
+- uid: Platform.Protocols.Xml.Serializer`1.FromFile*
   name: FromFile
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_FromFile_
-  commentId: Overload:Platform.Communication.Protocol.Xml.Serializer`1.FromFile
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_FromFile_
+  commentId: Overload:Platform.Protocols.Xml.Serializer`1.FromFile
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.FromFile
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).FromFile
+  fullName: Platform.Protocols.Xml.Serializer<T>.FromFile
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).FromFile
   nameWithType: Serializer<T>.FromFile
   nameWithType.vb: Serializer(Of T).FromFile
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.FromString(System.String)
+- uid: Platform.Protocols.Xml.Serializer`1.FromString(System.String)
   name: FromString(String)
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_FromString_System_String_
-  commentId: M:Platform.Communication.Protocol.Xml.Serializer`1.FromString(System.String)
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.FromString(System.String)
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).FromString(System.String)
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_FromString_System_String_
+  commentId: M:Platform.Protocols.Xml.Serializer`1.FromString(System.String)
+  fullName: Platform.Protocols.Xml.Serializer<T>.FromString(System.String)
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).FromString(System.String)
   nameWithType: Serializer<T>.FromString(String)
   nameWithType.vb: Serializer(Of T).FromString(String)
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.FromString*
+- uid: Platform.Protocols.Xml.Serializer`1.FromString*
   name: FromString
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_FromString_
-  commentId: Overload:Platform.Communication.Protocol.Xml.Serializer`1.FromString
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_FromString_
+  commentId: Overload:Platform.Protocols.Xml.Serializer`1.FromString
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.FromString
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).FromString
+  fullName: Platform.Protocols.Xml.Serializer<T>.FromString
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).FromString
   nameWithType: Serializer<T>.FromString
   nameWithType.vb: Serializer(Of T).FromString
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.Instance
+- uid: Platform.Protocols.Xml.Serializer`1.Instance
   name: Instance
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_Instance
-  commentId: F:Platform.Communication.Protocol.Xml.Serializer`1.Instance
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.Instance
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).Instance
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_Instance
+  commentId: F:Platform.Protocols.Xml.Serializer`1.Instance
+  fullName: Platform.Protocols.Xml.Serializer<T>.Instance
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).Instance
   nameWithType: Serializer<T>.Instance
   nameWithType.vb: Serializer(Of T).Instance
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.ToFile(`0,System.String)
+- uid: Platform.Protocols.Xml.Serializer`1.ToFile(`0,System.String)
   name: ToFile(T, String)
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_ToFile__0_System_String_
-  commentId: M:Platform.Communication.Protocol.Xml.Serializer`1.ToFile(`0,System.String)
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.ToFile(T, System.String)
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).ToFile(T, System.String)
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_ToFile__0_System_String_
+  commentId: M:Platform.Protocols.Xml.Serializer`1.ToFile(`0,System.String)
+  fullName: Platform.Protocols.Xml.Serializer<T>.ToFile(T, System.String)
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).ToFile(T, System.String)
   nameWithType: Serializer<T>.ToFile(T, String)
   nameWithType.vb: Serializer(Of T).ToFile(T, String)
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.ToFile*
+- uid: Platform.Protocols.Xml.Serializer`1.ToFile*
   name: ToFile
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_ToFile_
-  commentId: Overload:Platform.Communication.Protocol.Xml.Serializer`1.ToFile
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_ToFile_
+  commentId: Overload:Platform.Protocols.Xml.Serializer`1.ToFile
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.ToFile
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).ToFile
+  fullName: Platform.Protocols.Xml.Serializer<T>.ToFile
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).ToFile
   nameWithType: Serializer<T>.ToFile
   nameWithType.vb: Serializer(Of T).ToFile
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.ToString(`0)
+- uid: Platform.Protocols.Xml.Serializer`1.ToString(`0)
   name: ToString(T)
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_ToString__0_
-  commentId: M:Platform.Communication.Protocol.Xml.Serializer`1.ToString(`0)
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.ToString(T)
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).ToString(T)
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_ToString__0_
+  commentId: M:Platform.Protocols.Xml.Serializer`1.ToString(`0)
+  fullName: Platform.Protocols.Xml.Serializer<T>.ToString(T)
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).ToString(T)
   nameWithType: Serializer<T>.ToString(T)
   nameWithType.vb: Serializer(Of T).ToString(T)
-- uid: Platform.Communication.Protocol.Xml.Serializer`1.ToString*
+- uid: Platform.Protocols.Xml.Serializer`1.ToString*
   name: ToString
-  href: api/Platform.Communication.Protocol.Xml.Serializer-1.html#Platform_Communication_Protocol_Xml_Serializer_1_ToString_
-  commentId: Overload:Platform.Communication.Protocol.Xml.Serializer`1.ToString
+  href: api/Platform.Protocols.Xml.Serializer-1.html#Platform_Protocols_Xml_Serializer_1_ToString_
+  commentId: Overload:Platform.Protocols.Xml.Serializer`1.ToString
   isSpec: "True"
-  fullName: Platform.Communication.Protocol.Xml.Serializer<T>.ToString
-  fullName.vb: Platform.Communication.Protocol.Xml.Serializer(Of T).ToString
+  fullName: Platform.Protocols.Xml.Serializer<T>.ToString
+  fullName.vb: Platform.Protocols.Xml.Serializer(Of T).ToString
   nameWithType: Serializer<T>.ToString
   nameWithType.vb: Serializer(Of T).ToString
