@@ -5,7 +5,7 @@
     <IsPackable>false</IsPackable>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
-    <RootNamespace>Platform.Communication.Tests</RootNamespace>
+    <RootNamespace>Platform.Protocols.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

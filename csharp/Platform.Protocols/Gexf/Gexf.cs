@@ -1,20 +1,20 @@
 using System;
-using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Xml;
 using System.Xml.Serialization;
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace Platform.Communication.Protocol.Gexf
+namespace Platform.Protocols.Gexf
 {
     /// <summary>
     /// <para>
-    /// Represents the graph.
+    /// Represents the gexf.
     /// </para>
     /// <para></para>
     /// </summary>
-    public class Graph
+    [XmlRoot(ElementName = ElementName, Namespace = Namespace)]
+    public class Gexf
     {
         /// <summary>
         /// <para>
@@ -22,58 +22,44 @@ namespace Platform.Communication.Protocol.Gexf
         /// </para>
         /// <para></para>
         /// </summary>
-        public static readonly string ElementName = "graph";
+        public const string ElementName = "gexf";
         /// <summary>
         /// <para>
-        /// The mode attribute name.
+        /// The namespace.
         /// </para>
         /// <para></para>
         /// </summary>
-        public const string ModeAttributeName = "mode";
+        public const string Namespace = "http://www.gexf.net/1.2draft";
         /// <summary>
         /// <para>
-        /// The default edge type attribute name.
+        /// The version attribute name.
         /// </para>
         /// <para></para>
         /// </summary>
-        public const string DefaultEdgeTypeAttributeName = "defaultedgetype";
+        public const string VersionAttributeName = "version";
         /// <summary>
         /// <para>
-        /// The nodes element name.
+        /// The graph element name.
         /// </para>
         /// <para></para>
         /// </summary>
-        public const string NodesElementName = "nodes";
+        public const string GraphElementName = "graph";
         /// <summary>
         /// <para>
-        /// The node element name.
+        /// The current version.
         /// </para>
         /// <para></para>
         /// </summary>
-        public const string NodeElementName = "node";
-        /// <summary>
-        /// <para>
-        /// The edges element name.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        public const string EdgesElementName = "edges";
-        /// <summary>
-        /// <para>
-        /// The edge element name.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        public const string EdgeElementName = "edge";
+        public static readonly string CurrentVersion = "1.2";
 
         /// <summary>
         /// <para>
-        /// Gets or sets the mode value.
+        /// Gets or sets the version value.
         /// </para>
         /// <para></para>
         /// </summary>
-        [XmlAttribute(AttributeName = ModeAttributeName)]
-        public GraphMode Mode
+        [XmlAttribute(AttributeName = VersionAttributeName)]
+        public string Version
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get;
@@ -83,12 +69,12 @@ namespace Platform.Communication.Protocol.Gexf
 
         /// <summary>
         /// <para>
-        /// Gets or sets the default edge type value.
+        /// Gets or sets the graph value.
         /// </para>
         /// <para></para>
         /// </summary>
-        [XmlAttribute(AttributeName = DefaultEdgeTypeAttributeName)]
-        public GraphDefaultEdgeType DefaultEdgeType
+        [XmlElement(ElementName = GraphElementName)]
+        public Graph Graph
         {
             [MethodImpl(MethodImplOptions.AggressiveInlining)]
             get;
@@ -98,44 +84,12 @@ namespace Platform.Communication.Protocol.Gexf
 
         /// <summary>
         /// <para>
-        /// Gets or sets the nodes value.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        [XmlArray(ElementName = NodesElementName)]
-        [XmlArrayItem(ElementName = NodeElementName)]
-        public List<Node> Nodes
-        {
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            get;
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            set;
-        }
-
-        /// <summary>
-        /// <para>
-        /// Gets or sets the edges value.
-        /// </para>
-        /// <para></para>
-        /// </summary>
-        [XmlArray(ElementName = EdgesElementName)]
-        [XmlArrayItem(ElementName = EdgeElementName)]
-        public List<Edge> Edges
-        {
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            get;
-            [MethodImpl(MethodImplOptions.AggressiveInlining)]
-            set;
-        }
-
-        /// <summary>
-        /// <para>
-        /// Initializes a new <see cref="Graph"/> instance.
+        /// Initializes a new <see cref="Gexf"/> instance.
         /// </para>
         /// <para></para>
         /// </summary>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public Graph() => (Nodes, Edges) = (new List<Node>(), new List<Edge>());
+        public Gexf() => (Version, Graph) = (CurrentVersion, new Graph());
 
         /// <summary>
         /// <para>
@@ -148,22 +102,52 @@ namespace Platform.Communication.Protocol.Gexf
         /// <para></para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public void WriteXml(XmlWriter writer) => WriteXml(writer, () => WriteNodes(writer), () => WriteEdges(writer), Mode, DefaultEdgeType);
+        public void WriteXml(XmlWriter writer) => WriteXml(writer, () => Graph.WriteXml(writer), Version);
+
+        /// <summary>
+        /// <para>
+        /// Writes the xml using the specified writer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="writer">
+        /// <para>The writer.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="writeGraph">
+        /// <para>The write graph.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private void WriteEdges(XmlWriter writer)
-        {
-            for (var i = 0; i < Edges.Count; i++)
-            {
-                Edges[i].WriteXml(writer);
-            }
-        }
+        public static void WriteXml(XmlWriter writer, Action writeGraph) => WriteXml(writer, writeGraph, CurrentVersion);
+
+        /// <summary>
+        /// <para>
+        /// Writes the xml using the specified writer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="writer">
+        /// <para>The writer.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="writeGraph">
+        /// <para>The write graph.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="version">
+        /// <para>The version.</para>
+        /// <para></para>
+        /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private void WriteNodes(XmlWriter writer)
+        public static void WriteXml(XmlWriter writer, Action writeGraph, string version)
         {
-            for (var i = 0; i < Nodes.Count; i++)
-            {
-                Nodes[i].WriteXml(writer);
-            }
+            writer.WriteStartDocument();
+            writer.WriteStartElement(ElementName, Namespace);
+            writer.WriteAttributeString(VersionAttributeName, version);
+            writeGraph();
+            writer.WriteEndElement();
+            writer.WriteEndDocument();
         }
 
         /// <summary>
@@ -185,7 +169,7 @@ namespace Platform.Communication.Protocol.Gexf
         /// <para></para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges) => WriteXml(writer, writeNodes, writeEdges, GraphMode.Static, GraphDefaultEdgeType.Directed);
+        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges) => WriteXml(writer, writeNodes, writeEdges, CurrentVersion, GraphMode.Static, GraphDefaultEdgeType.Directed);
 
         /// <summary>
         /// <para>
@@ -203,6 +187,35 @@ namespace Platform.Communication.Protocol.Gexf
         /// </param>
         /// <param name="writeEdges">
         /// <para>The write edges.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="version">
+        /// <para>The version.</para>
+        /// <para></para>
+        /// </param>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version) => WriteXml(writer, writeNodes, writeEdges, version, GraphMode.Static, GraphDefaultEdgeType.Directed);
+
+        /// <summary>
+        /// <para>
+        /// Writes the xml using the specified writer.
+        /// </para>
+        /// <para></para>
+        /// </summary>
+        /// <param name="writer">
+        /// <para>The writer.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="writeNodes">
+        /// <para>The write nodes.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="writeEdges">
+        /// <para>The write edges.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="version">
+        /// <para>The version.</para>
         /// <para></para>
         /// </param>
         /// <param name="mode">
@@ -210,7 +223,7 @@ namespace Platform.Communication.Protocol.Gexf
         /// <para></para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, GraphMode mode) => WriteXml(writer, writeNodes, writeEdges, mode, GraphDefaultEdgeType.Directed);
+        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version, GraphMode mode) => WriteXml(writer, writeNodes, writeEdges, version, mode, GraphDefaultEdgeType.Directed);
 
         /// <summary>
         /// <para>
@@ -228,6 +241,10 @@ namespace Platform.Communication.Protocol.Gexf
         /// </param>
         /// <param name="writeEdges">
         /// <para>The write edges.</para>
+        /// <para></para>
+        /// </param>
+        /// <param name="version">
+        /// <para>The version.</para>
         /// <para></para>
         /// </param>
         /// <param name="mode">
@@ -239,18 +256,6 @@ namespace Platform.Communication.Protocol.Gexf
         /// <para></para>
         /// </param>
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, GraphMode mode, GraphDefaultEdgeType defaultEdgeType)
-        {
-            writer.WriteStartElement(ElementName);
-            writer.WriteAttributeString(ModeAttributeName, mode.ToString().ToLower());
-            writer.WriteAttributeString(DefaultEdgeTypeAttributeName, defaultEdgeType.ToString().ToLower());
-            writer.WriteStartElement(NodesElementName);
-            writeNodes();
-            writer.WriteEndElement();
-            writer.WriteStartElement(EdgesElementName);
-            writeEdges();
-            writer.WriteEndElement();
-            writer.WriteEndElement();
-        }
+        public static void WriteXml(XmlWriter writer, Action writeNodes, Action writeEdges, string version, GraphMode mode, GraphDefaultEdgeType defaultEdgeType) => WriteXml(writer, () => Graph.WriteXml(writer, writeNodes, writeEdges, mode, defaultEdgeType), version);
     }
 }

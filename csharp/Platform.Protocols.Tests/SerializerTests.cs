@@ -2,9 +2,9 @@ using System;
 using System.IO;
 using Xunit;
 using Platform.Singletons;
-using Platform.Communication.Protocol.Xml;
+using Platform.Protocols.Xml;
 
-namespace Platform.Communication.Tests
+namespace Platform.Protocols.Tests
 {
     public static class SerializerTests
     {

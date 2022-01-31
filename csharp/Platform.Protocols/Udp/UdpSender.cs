@@ -5,7 +5,7 @@ using Platform.Disposables;
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace Platform.Communication.Protocol.Udp
+namespace Platform.Protocols.Udp
 {
     /// <summary>
     /// <para>Represents the sender of messages transfered via UDP protocol.</para>

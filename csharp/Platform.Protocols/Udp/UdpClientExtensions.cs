@@ -5,7 +5,7 @@ using System.Text;
 
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace Platform.Communication.Protocol.Udp
+namespace Platform.Protocols.Udp
 {
     /// <summary>
     /// <para>

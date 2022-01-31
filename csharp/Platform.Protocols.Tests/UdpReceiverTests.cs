@@ -1,7 +1,7 @@
 using Xunit;
-using Platform.Communication.Protocol.Udp;
+using Platform.Protocols.Udp;
 
-namespace Platform.Communication.Tests
+namespace Platform.Protocols.Tests
 {
     public static class UdpReceiverTests
     {
