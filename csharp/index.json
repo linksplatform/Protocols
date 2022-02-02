@@ -71,7 +71,7 @@
   },
   "README.html": {
     "href": "README.html",
-    "title": "Communication | LinksPlatform's Platform.Protocols Library",
-    "keywords": "Communication LinksPlatform's Platform.Protocols Class Library. Namespace: Platform.Protocols Forked from: Konard/LinksPlatform/Platform/Platform.Protocols NuGet package: Platform.Protocols Documentation Namespaces: Platform.Protocols.Protocol.Gexf Platform.Protocols.Protocol.Udp Platform.Protocols.Protocol.Xml PDF file with code for e-readers. Depend on Platform.Threading Platform.Singletons Dependent libraries Platform.Data.Triplets"
+    "title": "Protocols | LinksPlatform's Platform.Protocols Library",
+    "keywords": "Protocols LinksPlatform's Platform.Protocols Class Library. Namespace: Platform.Protocols Forked from: Konard/LinksPlatform/Platform/Platform.Protocols NuGet package: Platform.Protocols Documentation Namespaces: Platform.Protocols.Gexf Platform.Protocols.Udp Platform.Protocols.Xml PDF file with code for e-readers. Depend on Platform.Threading Platform.Singletons Dependent libraries Platform.Data.Triplets"
   }
 }
