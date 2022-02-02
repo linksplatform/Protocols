@@ -4,7 +4,7 @@
     <Description>LinksPlatform's Platform.Protocols Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Protocols</AssemblyTitle>
-    <VersionPrefix>0.2.0</VersionPrefix>
+    <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
     <PackageId>Platform.Protocols</PackageId>
@@ -23,9 +23,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Lowest supported version of .NET Framework is now 4.7.2.
-Platform.Threading dependency updated from 0.1.1 to 0.2.0.
-Platform.Singletons dependency updated from 0.0.7 to 0.1.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>Package is renamed, namespaced are changed accordingly. Protocols is used instead of Communication. Protocols are placed in the Protocols namespace instead of Communication.Protocols.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
     <RootNamespace>Platform.Protocols</RootNamespace>
   </PropertyGroup>
