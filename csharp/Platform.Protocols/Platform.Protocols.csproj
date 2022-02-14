@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Protocols</AssemblyTitle>
     <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0;netstandard2.1;net5;net6</TargetFrameworks>
     <PackageId>Platform.Protocols</PackageId>
     <PackageTags>LinksPlatform;Communication;Protocols;Edge;Gexf;Graph;GraphDefaultEdgeType;GraphMode;Node;Udp;UdpClientExtensions;UdpReceiver;UdpSender;Xml;Serializer</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
