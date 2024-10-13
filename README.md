@@ -1,4 +1,4 @@
-[![NuGet Version and Downloads count](https://buildstats.info/nuget/Platform.Protocols)](https://www.nuget.org/packages/Platform.Protocols)
+[![NuGet Version and Downloads count](https://img.shields.io/nuget/v/Platform.Protocols?label=nuget&style=flat)](https://www.nuget.org/packages/Platform.Protocols)
 [![Actions Status](https://github.com/linksplatform/Protocols/workflows/CD/badge.svg)](https://github.com/linksplatform/Protocols/actions?workflow=CD)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c25f708dc08b4f7e8d96c671378bb1ad)](https://app.codacy.com/app/drakonard/Protocols?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Protocols&utm_campaign=Badge_Grade_Dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/communication/badge)](https://www.codefactor.io/repository/github/linksplatform/communication)
