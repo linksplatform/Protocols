@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Protocols</AssemblyTitle>
     <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFramework>net7</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
     <PackageId>Platform.Protocols</PackageId>
     <PackageTags>LinksPlatform;Communication;Protocols;Edge;Gexf;Graph;GraphDefaultEdgeType;GraphMode;Node;Udp;UdpClientExtensions;UdpReceiver;UdpSender;Xml;Serializer</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
@@ -22,7 +22,7 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Package is renamed, namespaced are changed accordingly. Protocols is used instead of Communication. Protocols are placed in the Protocols namespace instead of Communication.Protocols.</PackageReleaseNotes>
+    <PackageReleaseNotes>Update target framework from net7 to net8.</PackageReleaseNotes>
     <Nullable>enable</Nullable>
     <RootNamespace>Platform.Protocols</RootNamespace>
   </PropertyGroup>
