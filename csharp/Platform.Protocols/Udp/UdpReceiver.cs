@@ -1,7 +1,9 @@
 using System;
+using System.Linq;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
 using System.Threading;
+using System.Threading.Tasks;
 using Platform.Disposables;
 using Platform.Exceptions;
 using Platform.Threading;
@@ -26,7 +28,8 @@ namespace Platform.Protocols.Udp
     {
         private const int DefaultPort = 15000;
         private bool _receiverRunning;
-        private Thread _thread;
+        private Task? _receiverTask;
+        private CancellationTokenSource _cancellationTokenSource;
         private readonly UdpClient _udp;
         private readonly MessageHandlerCallback _messageHandler;
 
@@ -65,6 +68,7 @@ namespace Platform.Protocols.Udp
         {
             _udp = new UdpClient(listenPort);
             _messageHandler = messageHandler;
+            _cancellationTokenSource = new CancellationTokenSource();
             if (autoStart)
             {
                 Start();
@@ -119,11 +123,10 @@ namespace Platform.Protocols.Udp
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Start()
         {
-            if (!_receiverRunning && _thread == null)
+            if (!_receiverRunning && _receiverTask == null)
             {
                 _receiverRunning = true;
-                _thread = new Thread(Receiver);
-                _thread.Start();
+                _receiverTask = Task.Run(() => Receiver(_cancellationTokenSource.Token));
             }
         }
 
@@ -136,11 +139,19 @@ namespace Platform.Protocols.Udp
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Stop()
         {
-            if (_receiverRunning && _thread != null)
+            if (_receiverRunning && _receiverTask != null)
             {
                 _receiverRunning = false;
-                _thread.Join();
-                _thread = null;
+                _cancellationTokenSource.Cancel();
+                try
+                {
+                    _receiverTask.Wait();
+                }
+                catch (AggregateException ex) when (ex.InnerExceptions.All(e => e is OperationCanceledException))
+                {
+                    // Expected when cancellation is requested
+                }
+                _receiverTask = null;
             }
         }
 
@@ -166,9 +177,9 @@ namespace Platform.Protocols.Udp
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void ReceiveAndHandle() => _messageHandler(Receive());
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        private void Receiver()
+        private void Receiver(CancellationToken cancellationToken)
         {
-            while (_receiverRunning)
+            while (_receiverRunning && !cancellationToken.IsCancellationRequested)
             {
                 try
                 {
@@ -208,6 +219,7 @@ namespace Platform.Protocols.Udp
             if (!wasDisposed)
             {
                 Stop();
+                _cancellationTokenSource?.Dispose();
                 _udp.DisposeIfPossible();
             }
         }
